@@ -3,6 +3,9 @@
   "name": "MakeGithubGreatAgain",
   "version": "1.2.0",
   "description": "Extension to make GitHub great again!.",
+  "browser_action": {
+    "default_icon": "logo_16.png"
+  },
   "content_scripts": [
     {
       "matches": [
