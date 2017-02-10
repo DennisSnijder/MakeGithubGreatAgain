@@ -1,3 +1,3 @@
 #Make Github Great Again!
 
-![alt screenshot][screenshot.png]
+![alt screenshot](screenshot.png)
