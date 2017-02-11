@@ -6,6 +6,7 @@
 // @author       DennisSnijder / cnBeining
 // @match        https://github.com/*
 // @grant        none
+// @run-at       document-start
 // ==/UserScript==
 
 (function() {

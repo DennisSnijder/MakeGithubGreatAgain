@@ -7,6 +7,7 @@
 // @match        https://github.com/*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js
 // @grant        none
+// @run-at       document-start
 // ==/UserScript==
 
 var $header = $("div.header");
