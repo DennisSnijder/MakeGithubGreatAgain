@@ -12,7 +12,8 @@
     "default_icon": "icon_16.png"
   },
   "permissions": [
-    "storage"
+    "storage",
+    "tabs"
   ],
   "background": {
     "persistent": false,
