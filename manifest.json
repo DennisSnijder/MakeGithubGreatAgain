@@ -18,7 +18,7 @@
   "background": {
     "persistent": false,
     "scripts": [
-      "background.js"
+      "src/background.js"
     ]
   },
   "content_scripts": [
@@ -28,7 +28,7 @@
         "*://*.github.com/*"
       ],
       "js": [
-        "content_script.js"
+        "src/content_script.js"
       ],
       "run_at": "document_end"
     }
