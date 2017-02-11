@@ -4,9 +4,11 @@
 // @version      0.1
 // @description  Get your old Github back. Remove the new dark topbar! Party hard!
 // @author       DennisSnijder / cnBeining
-// @match        https://github.com/*
+// @include      https://github.com/*
+// @include      https://gist.github.com/*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js
 // @grant        none
+// @run-at       document-start
 // ==/UserScript==
 
 var $header = $("div.header");

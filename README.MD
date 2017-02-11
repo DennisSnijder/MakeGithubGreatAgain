@@ -9,7 +9,7 @@ https://chrome.google.com/webstore/detail/makegithubgreatagain/gpejlkhibgecggplg
 
 #How to manually install
 1. Download this repository.
-2. open up chrome://extensions/ in your browser and click “Developer mode” in the top right. 
+2. Open up chrome://extensions/ in your browser and click “Developer mode” in the top right. 
 3. Click on the new button __Load unpacked extension...__ and select the downloaded folder.  
 
 Congratulations! You just made Github Great again!  

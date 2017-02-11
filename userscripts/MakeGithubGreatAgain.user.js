@@ -4,13 +4,14 @@
 // @version      0.1
 // @description  Get your old Github back. Remove the new dark topbar! alt screenshot
 // @author       DennisSnijder / cnBeining
-// @match        https://github.com/*
+// @include      https://github.com/*
+// @include      https://gist.github.com/*
 // @grant        none
+// @run-at       document-start
 // ==/UserScript==
 
 (function() {
     'use strict';
 
-    var element = document.getElementsByClassName("header-dark")[0];
-    element.className = element.className.replace(/\bheader-dark\b/,'');
+    document.querySelector('.header-dark').classList.remove('header-dark');
 })();
