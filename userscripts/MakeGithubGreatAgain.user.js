@@ -4,7 +4,8 @@
 // @version      0.1
 // @description  Get your old Github back. Remove the new dark topbar! alt screenshot
 // @author       DennisSnijder / cnBeining
-// @match        https://github.com/*
+// @include      https://github.com/*
+// @include      https://gist.github.com/*
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
