@@ -15,6 +15,7 @@
     {
       "matches": [
         "*://github.com/*"
+        "*://*.github.com/*"
       ],
       "js": [
         "content_script.js"
