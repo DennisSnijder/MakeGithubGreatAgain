@@ -1,14 +1,8 @@
 function replaceHeader() {
-    var element = document.getElementsByClassName("header-dark")[0];
-    if (element) {
-        // element exists, store it so we don't run this twice
-        hasReplaced = true;
-
-        // Default to always removing the border
-        element.className = element.className.replace(/\header-dark\b/, '');
-    }
+    var element = document.querySelector('.header-dark');
+    if (element) element.classList.remove('header-dark');
 }
 
 // Dom event listeners
 document.addEventListener('DOMNodeInserted', replaceHeader);
-document.addEventListener("DOMContentLoaded", replaceHeader);
+document.addEventListener('DOMContentLoaded', replaceHeader);
