@@ -11,7 +11,7 @@ function replaceHeader() {
             hasReplaced = true;
 
             // Default to always removing the border
-            element.className = element.className.replace(/\header-dark\b/, '');
+            element.className = element.className.replace(/\bheader-dark\b/, '');
 
             // check storage if we want it back
             chrome.storage.sync.get(['enabled'], function (results) {
