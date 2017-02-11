@@ -8,7 +8,7 @@ How to install
 ================================
 Click on the following link and install the extension.
 
-https://chrome.google.com/webstore/detail/makegithubgreatagain/gpejlkhibgecggplgogpbgbdpnhogmhk
+<a href="https://chrome.google.com/webstore/detail/makegithubgreatagain/gpejlkhibgecggplgogpbgbdpnhogmhk">Click here!</a>
 
 How to manually install
 ================================
