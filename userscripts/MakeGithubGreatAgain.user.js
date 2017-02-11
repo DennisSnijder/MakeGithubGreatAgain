@@ -12,6 +12,5 @@
 (function() {
     'use strict';
 
-    var element = document.getElementsByClassName("header-dark")[0];
-    element.className = element.className.replace(/\bheader-dark\b/,'');
+    document.querySelector('.header-dark').classList.remove('header-dark');
 })();
