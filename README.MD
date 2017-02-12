@@ -6,7 +6,11 @@ Get your old Github back. Remove the new dark topbar!
 #How to install
 Click on the following link and install the extension.
 
+###Google chrome
 https://chrome.google.com/webstore/detail/makegithubgreatagain/gpejlkhibgecggplgogpbgbdpnhogmhk
+
+###FireFox
+https://addons.mozilla.org/firefox/addon/githubgreatagain/
 
 #How to manually install
 1. Download this repository.
