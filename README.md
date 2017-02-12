@@ -1,5 +1,5 @@
-#Make Github Great Again!
-Get your old Github back. Remove the new dark topbar!
+#Make GitHub Great Again!
+Get your old GitHub back. Remove the new dark topbar!
 
 ![alt screenshot](assets/example.gif)
 
@@ -17,4 +17,4 @@ https://addons.mozilla.org/firefox/addon/githubgreatagain/
 2. Open up chrome://extensions/ in your browser and click “Developer mode” in the top right. 
 3. Click on the new button __Load unpacked extension...__ and select the downloaded folder.  
 
-Congratulations! You just made Github Great again!  
+Congratulations! You just made GitHub Great again!  
