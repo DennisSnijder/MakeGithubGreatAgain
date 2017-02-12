@@ -1,6 +1,7 @@
 #Make Github Great Again!
 Get your old Github back. Remove the new dark topbar!
-![alt screenshot](screenshot.png)
+
+![alt screenshot](assets/example.gif)
 
 #How to install
 Click on the following link and install the extension.
