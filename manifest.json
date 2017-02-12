@@ -1,19 +1,19 @@
 {
   "manifest_version": 2,
-  "name": "MakeGithubGreatAgain",
+  "name": "Make GitHub Great Again",
   "version": "1.2.0",
-  "description": "Extension to make GitHub great again!.",
+  "description": "Extension to make GitHub great again!",
+  "minimum_chrome_version": "26",
   "icons": {
     "16": "icon_16.png",
     "48": "icon_48.png",
     "128": "icon_128.png"
   },
-  "browser_action": {
-    "default_icon": "icon_16.png"
+  "page_action": {
+    "default_title": "Toggle light/dark header"
   },
   "permissions": [
-    "storage",
-    "tabs"
+    "storage"
   ],
   "background": {
     "persistent": false,

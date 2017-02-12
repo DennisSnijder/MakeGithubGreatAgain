@@ -1,28 +1,35 @@
-var hasReplaced = false;
+var headerBar;
 
 function replaceHeader() {
-    // check if we already replaced the header class
-    if (hasReplaced === false) {
+    // check if element exists yet
+    headerBar = document.querySelector('body > .header');
+    if (headerBar) {
+        // element exists, remove the event listeners so we don't run this twice
+        document.removeEventListener('DOMNodeInserted', replaceHeader);
+        document.removeEventListener('DOMContentLoaded', replaceHeader);
 
-        // check if element exists yet
-        var element = document.getElementsByClassName("header-dark")[0];
-        if (element) {
-            // element exists, store it so we don't run this twice
-            hasReplaced = true;
+        // default to always removing the border
+        headerBar.classList.remove('header-dark');
 
-            // Default to always removing the border
-            element.className = element.className.replace(/\bheader-dark\b/, '');
+        // check storage if we want it back
+        chrome.storage.sync.get(['enabled'], function (results) {
+            if (results.enabled || results.enabled === undefined) {
+                 headerBar.classList.add('header-dark');
+            }
+        });
 
-            // check storage if we want it back
-            chrome.storage.sync.get(['enabled'], function (results) {
-                if (results.enabled || results.enabled === undefined) {
-                    element.className += " header-dark";
-                }
-            });
-        }
+        // send a message to the background script to enable the page action
+        chrome.runtime.sendMessage('enable_page_action', function () {});
     }
 }
 
-// Dom event listeners
+// event listeners
 document.addEventListener('DOMNodeInserted', replaceHeader);
-document.addEventListener("DOMContentLoaded", replaceHeader);
+document.addEventListener('DOMContentLoaded', replaceHeader);
+
+// listen for messages from the background script to toggle
+chrome.runtime.onMessage.addListener(function (message, sender, callback) {
+    if (message === 'toggle_style') {
+        headerBar.classList.toggle('header-dark');
+    }
+});
