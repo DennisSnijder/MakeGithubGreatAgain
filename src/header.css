@@ -25,8 +25,9 @@
 }
 
 .great-header .header-search-scope {
-    color: #767676;
-    border-right: 1px solid #eee;
+    font-size: inherit;
+    color: #767676 !important;
+    border-right: 1px solid #eee !important;
 }
 
 .great-header .scoped-search .form-control.focus .header-search-scope {
