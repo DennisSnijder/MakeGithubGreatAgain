@@ -8,6 +8,9 @@ function replaceHeader() {
         document.removeEventListener('DOMNodeInserted', replaceHeader);
         document.removeEventListener('DOMContentLoaded', replaceHeader);
 
+
+        headerBar.classList.remove('header-dark');
+
         // default to always removing the border
         headerBar.classList.add('great-header');
 

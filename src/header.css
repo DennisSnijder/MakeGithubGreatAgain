@@ -81,3 +81,24 @@
 .great-header .header-search-input::placeholder {
     color: rgba(0,0,0,.5)
 }
+
+.great-header .form-control {
+    color: #333 !important;
+    background-color: #fff !important;
+}
+
+.great-header *::-webkit-input-placeholder {
+    color: #767676 !important;
+}
+.great-header *:-moz-placeholder {
+    /* FF 4-18 */
+    color: #767676 !important;
+}
+.great-header *::-moz-placeholder {
+    /* FF 19+ */
+    color: #767676 !important;
+}
+.great-header *:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #767676 !important;
+}
