@@ -1,0 +1,83 @@
+.header.great-header {
+    color: #333;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.great-header .read-only-mode-banner {
+    background-color: #f8e45f;
+    border-bottom-color: #f6dc2e
+}
+
+.great-header .header-logo-invertocat, .great-header .header-logo-wordmark {
+    color: #555
+}
+
+.great-header .notification-indicator .mail-status {
+    color: #fff;
+    background-image: -webkit-linear-gradient(#1cafff, #0086ce);
+    background-image: linear-gradient(#1cafff, #0086ce);
+    border: 2px solid #f3f3f3
+}
+
+.great-header .notification-indicator:hover .mail-status {
+    background-color: #4078c0
+}
+
+.great-header .header-search-scope {
+    color: #767676;
+    border-right: 1px solid #eee;
+}
+
+.great-header .scoped-search .form-control.focus .header-search-scope {
+    color: #4078c0;
+    background-color: #edf2f9;
+    border-color: #c6d7ec
+}
+
+.great-header .header-nav-link {
+    color: #555
+}
+.great-header .header-logo-invertocat:hover, .great-header .header-logo-wordmark:hover,
+.great-header .header-nav-link:hover, .great-header .header-nav-link:focus {
+    color: #4078c0
+}
+
+.great-header .header-nav-link:hover .dropdown-caret, .great-header .header-nav-link:focus .dropdown-caret {
+    border-top-color: #4078c0
+}
+
+.great-header .header-search {
+    font-size: 14px
+}
+
+.great-header .header-search-wrapper {
+    background: #fff;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+    border: 1px solid #ddd;
+    font-size: 14px;
+    min-height: 0;
+}
+
+.great-header .header-search-wrapper.focus {
+    background: #fff;
+    border-color: #51a7e8;
+    outline: none;
+    color: inherit;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .075), 0 0 5px rgba(81, 167, 232, .5);
+}
+
+.great-header .header-search-scope {
+    font-size: 12px;
+    line-height: inherit;
+    min-height: 0;
+}
+
+.great-header .header-search-input {
+    min-height: 26px;
+}
+
+.great-header .header-search-input::-webkit-input-placeholder,
+.great-header .header-search-input::placeholder {
+    color: rgba(0,0,0,.5)
+}

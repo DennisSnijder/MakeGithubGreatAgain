@@ -20,6 +20,9 @@
       "js": [
         "firefox.js"
       ],
+      "css": [
+
+      ],
       "run_at": "document_start"
     }
   ]

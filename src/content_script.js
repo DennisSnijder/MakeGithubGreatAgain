@@ -9,12 +9,12 @@ function replaceHeader() {
         document.removeEventListener('DOMContentLoaded', replaceHeader);
 
         // default to always removing the border
-        headerBar.classList.remove('header-dark');
+        headerBar.classList.add('great-header');
 
         // check storage if we want it back
         chrome.storage.sync.get(['enabled'], function (results) {
             if (results.enabled || results.enabled === undefined) {
-                 headerBar.classList.add('header-dark');
+                 headerBar.classList.add('great-header');
             }
         });
 
@@ -30,6 +30,6 @@ document.addEventListener('DOMContentLoaded', replaceHeader);
 // listen for messages from the background script to toggle
 chrome.runtime.onMessage.addListener(function (message, sender, callback) {
     if (message === 'toggle_style') {
-        headerBar.classList.toggle('header-dark');
+        headerBar.classList.toggle('great-header');
     }
 });

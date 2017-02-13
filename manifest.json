@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Make GitHub Great Again",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Extension to make GitHub great again!",
   "minimum_chrome_version": "26",
   "icons": {
@@ -29,6 +29,9 @@
       ],
       "js": [
         "src/content_script.js"
+      ],
+      "css": [
+        "src/header.css"
       ],
       "run_at": "document_start"
     }
