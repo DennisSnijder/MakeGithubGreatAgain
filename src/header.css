@@ -4,6 +4,12 @@
     border-bottom: 1px solid #e5e5e5
 }
 
+.great-header .header-search-scope {
+   color: rgb(64, 120, 192);
+   background-color: rgb(237, 242, 249);
+   border-color: rgb(198, 215, 236);
+}
+
 .great-header .read-only-mode-banner {
     background-color: #f8e45f;
     border-bottom-color: #f6dc2e
