@@ -2,7 +2,7 @@ var headerBar;
 
 function replaceHeader() {
     // check if element exists yet
-    headerBar = document.querySelector('body > .header');
+    headerBar = document.querySelector('body > div > .header');
     if (headerBar) {
         // element exists, remove the event listeners so we don't run this twice
         document.removeEventListener('DOMNodeInserted', replaceHeader);
