@@ -1,5 +1,5 @@
 #Make GitHub Great Again!
-Get your old GitHub back. Remove the new dark topbar!
+Get your old GitHub back. Remove the new dark topbar and hide those garish Blue links!
 
 ![alt screenshot](assets/example.gif)
 
@@ -14,7 +14,7 @@ https://addons.mozilla.org/firefox/addon/githubgreatagain/
 
 #How to manually install
 1. Download this repository.
-2. Open up chrome://extensions/ in your browser and click “Developer mode” in the top right. 
-3. Click on the new button __Load unpacked extension...__ and select the downloaded folder.  
+2. Open up chrome://extensions/ in your browser and click “Developer mode” in the top right.
+3. Click on the new button __Load unpacked extension...__ and select the downloaded folder.
 
-Congratulations! You just made GitHub Great again!  
+Congratulations! You just made GitHub Great again!
