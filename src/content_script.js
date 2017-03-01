@@ -24,6 +24,7 @@ function replaceHeader() {
         // send a message to the background script to enable the page action
         chrome.runtime.sendMessage('enable_page_action', function () {});
     }
+    document.querySelector('body').classList.add('great-again');
 }
 
 // event listeners
@@ -34,5 +35,6 @@ document.addEventListener('DOMContentLoaded', replaceHeader);
 chrome.runtime.onMessage.addListener(function (message, sender, callback) {
     if (message === 'toggle_style') {
         headerBar.classList.toggle('great-header');
+        document.querySelector('body').classList.toggle('great-again');
     }
 });

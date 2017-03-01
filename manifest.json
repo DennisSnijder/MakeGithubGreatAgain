@@ -31,7 +31,8 @@
         "src/content_script.js"
       ],
       "css": [
-        "src/header.css"
+        "src/header.css",
+        "src/links.css"
       ],
       "run_at": "document_start"
     }

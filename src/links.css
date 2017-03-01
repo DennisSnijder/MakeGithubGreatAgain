@@ -1,0 +1,11 @@
+.great-again .main a:not(.btn) {
+    color: #4078c0;
+}
+
+.great-again table.files td.icon .octicon-file-directory {
+    color: #4078c0;
+}
+
+.great-again .flash {
+    background-color: #f2f9fc;
+}
