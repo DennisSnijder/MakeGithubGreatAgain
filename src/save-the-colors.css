@@ -33,6 +33,7 @@ a {
   color: #4078c0 !important;
 }
 .btn-outline:hover, .ellipsis-expander:hover {
+  color: #fff !important;
   background-color: #4078c0 !important;
 }
 /* purple */
