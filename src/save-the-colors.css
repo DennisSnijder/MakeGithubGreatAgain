@@ -28,13 +28,13 @@
 a {
   color: #4078c0; /* do not mark important */
 }
-.emoji, .btn-link, .btn-outline, .message:hover, .muted-link:hover,
+.emoji, .btn-outline, .btn-change-protocol, .message:hover, .muted-link:hover,
 .title-link:hover, .btn-octicon:hover, .menu-target:hover,
 .social-count:hover, .tabnav-extra:hover, .toolbar-item:hover,
-.discussion-item-help:hover, .numbers-summary a:hover {
+.link-gray-dark:hover, .discussion-item-help:hover, .numbers-summary a:hover {
   color: #4078c0 !important;
 }
-.navigation-focus, .btn-outline:hover, .diff-expander:hover,
+.select-menu-item.navigation-focus, .btn-outline:hover, .diff-expander:hover,
 .dropdown-item:hover, .ellipsis-expander:hover {
   color: #fff !important;
   background-color: #4078c0 !important;
