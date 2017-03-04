@@ -25,10 +25,14 @@
   border-color: #95c97e !important;
 }
 /* blue */
-a, .emoji, .btn-outline {
+a {
   color: #4078c0; /* do not mark important */
 }
-.btn-outline:hover {
+.emoji, .btn-outline, .message:hover, .title-link:hover,
+.discussion-item-help:hover {
+  color: #4078c0 !important;
+}
+.btn-outline:hover, .ellipsis-expander:hover {
   background-color: #4078c0 !important;
 }
 /* purple */
