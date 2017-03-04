@@ -29,7 +29,8 @@ a {
   color: #4078c0; /* do not mark important */
 }
 .emoji, .btn-outline, .message:hover, .muted-link:hover, .title-link:hover,
-.btn-octicon:hover, .social-count:hover,.discussion-item-help:hover {
+.btn-octicon:hover, .menu-target:hover, .social-count:hover,
+.tabnav-extra:hover, .toolbar-item:hover, .discussion-item-help:hover {
   color: #4078c0 !important;
 }
 .btn-outline:hover, .diff-expander:hover, .dropdown-item:hover,
