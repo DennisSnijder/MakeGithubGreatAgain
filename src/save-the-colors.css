@@ -28,19 +28,27 @@
 a {
   color: #4078c0; /* do not mark important */
 }
-.emoji, .btn-outline, .btn-change-protocol, .message:hover, .muted-link:hover,
-.title-link:hover, .btn-octicon:hover, .menu-target:hover,
+.btn-outline, .btn-change-protocol, .reaction-summary-item, .message:hover,
+.muted-link:hover, .title-link:hover, .btn-octicon:hover, .menu-target:hover,
 .social-count:hover, .tabnav-extra:hover, .toolbar-item:hover,
 .link-gray-dark:hover, .discussion-item-help:hover, .numbers-summary a:hover {
   color: #4078c0 !important;
 }
-.select-menu-item.navigation-focus, .btn-outline:hover, .diff-expander:hover,
-.dropdown-item:hover, .ellipsis-expander:hover {
-  color: #fff !important;
+.suggester .navigation-focus, .select-menu-item.navigation-focus,
+.select-menu-item.navigation-focus .description-inline, .btn-outline:hover,
+.diff-expander:hover, .dropdown-item:hover, .ellipsis-expander:hover,
+.reaction-sort-item:hover {
   background-color: #4078c0 !important;
+}
+.select-menu-item-parent.select-menu-item.navigation-focus {
+  color: #24292e !important;
+  background-color: #f1f8ff !important;
 }
 .add-line-comment {
   background-image: linear-gradient(#5386c6, #4078c0) !important;
+}
+.btn-outline:hover {
+  color: #fff !important;
 }
 /* purple */
 .state-merged, .discussion-item-merged .discussion-item-icon {
