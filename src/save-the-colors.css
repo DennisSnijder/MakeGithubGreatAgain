@@ -40,10 +40,11 @@ a {
 .numbers-summary a:hover {
   color: #4078c0 !important;
 }
-.suggester .navigation-focus, .select-menu-item.navigation-focus,
+.filter-item.selected, .suggester .navigation-focus,
+.select-menu-item.navigation-focus,
 .select-menu-item.navigation-focus .description-inline, .btn-outline:hover,
-.diff-expander:hover, .dropdown-item:hover, .ellipsis-expander:hover,
-.reaction-sort-item:hover {
+.diff-expander:hover, .dropdown-item:hover, .reaction-sort-item:hover,
+.timeline-commits .ellipsis-expander:hover {
   background-color: #4078c0 !important;
 }
 .select-menu-item-parent.select-menu-item.navigation-focus {
