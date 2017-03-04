@@ -3,7 +3,10 @@
 .discussion-item-closed .discussion-item-icon {
   background-color: #bd2c00 !important;
 }
-.text-red {
+.btn-danger:hover {
+  background-image: linear-gradient(#ec5757, #c71616) !important;
+}
+.text-red, .btn-danger {
   color: #bd2c00 !important;
 }
 /* green */
@@ -28,10 +31,13 @@
 a {
   color: #4078c0; /* do not mark important */
 }
-.btn-outline, .btn-change-protocol, .reaction-summary-item, .message:hover,
+.btn-outline, .subset-files-tab, .btn-change-protocol,
+.reaction-summary-item, .add-reactions-options-item, .message:hover,
 .muted-link:hover, .title-link:hover, .btn-octicon:hover, .menu-target:hover,
 .social-count:hover, .tabnav-extra:hover, .toolbar-item:hover,
-.link-gray-dark:hover, .discussion-item-help:hover, .numbers-summary a:hover {
+.link-gray-dark:hover, .discussion-item-help:hover,
+.timeline-comment-action:hover, .timeline-comment-action:focus,
+.numbers-summary a:hover {
   color: #4078c0 !important;
 }
 .suggester .navigation-focus, .select-menu-item.navigation-focus,
@@ -47,10 +53,11 @@ a {
 .add-line-comment {
   background-image: linear-gradient(#5386c6, #4078c0) !important;
 }
-.btn-outline:hover {
-  color: #fff !important;
-}
 /* purple */
 .state-merged, .discussion-item-merged .discussion-item-icon {
   background-color: #6e5494 !important;
+}
+/* white */
+.btn-danger:hover, .btn-outline:hover {
+  color: #fff !important;
 }
