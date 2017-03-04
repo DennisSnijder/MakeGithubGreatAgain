@@ -28,13 +28,17 @@
 a {
   color: #4078c0; /* do not mark important */
 }
-.emoji, .btn-outline, .message:hover, .title-link:hover,
-.discussion-item-help:hover {
+.emoji, .btn-outline, .message:hover, .muted-link:hover, .title-link:hover,
+.btn-octicon:hover, .social-count:hover,.discussion-item-help:hover {
   color: #4078c0 !important;
 }
-.btn-outline:hover, .dropdown-item:hover, .ellipsis-expander:hover {
+.btn-outline:hover, .diff-expander:hover, .dropdown-item:hover,
+.ellipsis-expander:hover {
   color: #fff !important;
   background-color: #4078c0 !important;
+}
+.add-line-comment {
+  background-image: linear-gradient(#5386c6, #4078c0) !important;
 }
 /* purple */
 .state-merged, .discussion-item-merged .discussion-item-icon {
