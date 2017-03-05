@@ -1,0 +1,70 @@
+/* red */
+.state-closed, .block-diff-deleted,
+.discussion-item-closed .discussion-item-icon {
+  background-color: #bd2c00 !important;
+}
+.btn-danger:hover {
+  background-image: linear-gradient(#ec5757, #c71616) !important;
+}
+.text-red, .btn-danger {
+  color: #bd2c00 !important;
+}
+/* green */
+.bg-green, .state-open, .completeness-indicator-success,
+.branch-action-state-clean .branch-action-icon,
+.discussion-item-reopened .discussion-item-icon {
+  background-color: #6cc644 !important;
+}
+.block-diff-added {
+  background-color: #55a532 !important;
+}
+.btn-primary {
+  background-image: linear-gradient(#91dd70, #55ae2e) !important;
+}
+.text-green {
+  color: #6cc644 !important;
+}
+.branch-action-state-clean .branch-action-body {
+  border-color: #95c97e !important;
+}
+/* blue */
+a {
+  color: #4078c0; /* do not mark important */
+}
+.subset-files-tab, .btn-outline, .btn-link,
+.notification-actions .btn-link:hover, .timeline-comment-action:hover,
+.discussion-item-help:hover, .link-gray-dark:hover, .toolbar-item:hover,
+.btn-octicon:hover, .title-link:hover, .muted-link:hover, .commit-id:hover,
+.tabnav-extra:hover, .social-count:hover, .menu-target:hover, .message:hover,
+.numbers-summary a:hover, .timeline-comment-action:focus, .menu-target:focus {
+  color: #4078c0 !important;
+}
+.filter-item.selected, .bg-blue,
+.select-menu-item.navigation-focus .description-inline,
+.select-menu-item.navigation-focus, .suggester .navigation-focus,
+.dropdown-item:hover, .diff-expander:hover, .btn-outline:hover,
+.timeline-commits .ellipsis-expander:hover, .reaction-sort-item:hover {
+  background-color: #4078c0 !important;
+}
+.select-menu-item-parent.select-menu-item.navigation-focus {
+  color: #24292e !important;
+  background-color: #f1f8ff !important;
+}
+.add-line-comment {
+  background-image: linear-gradient(#5386c6, #4078c0) !important;
+}
+/* purple */
+.state-merged, .discussion-item-merged .discussion-item-icon {
+  background-color: #6e5494 !important;
+}
+/* white */
+.add-line-comment, .btn-danger:hover, .btn-outline:hover {
+  color: #fff !important;
+}
+.label-select-menu .navigation-focus {
+  background-color: #f4f4f4 !important;
+}
+.table-list-header-toggle .btn-link, .notification-actions .btn-link,
+.tabnav-tab, .muted-link {
+  color: #586069 !important;
+}
