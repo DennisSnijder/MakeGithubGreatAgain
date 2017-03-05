@@ -10,7 +10,7 @@
   color: #bd2c00 !important;
 }
 /* green */
-.state-open, .completeness-indicator-success,
+.bg-green, .state-open, .completeness-indicator-success,
 .branch-action-state-clean .branch-action-icon,
 .discussion-item-reopened .discussion-item-icon {
   background-color: #6cc644 !important;
@@ -31,13 +31,12 @@
 a {
   color: #4078c0; /* do not mark important */
 }
-.btn-outline, .subset-files-tab, .btn-change-protocol,
-.reaction-summary-item, .add-reactions-options-item, .message:hover,
-.muted-link:hover, .title-link:hover, .btn-octicon:hover, .menu-target:hover,
-.social-count:hover, .tabnav-extra:hover, .toolbar-item:hover,
-.link-gray-dark:hover, .discussion-item-help:hover,
-.timeline-comment-action:hover, .timeline-comment-action:focus,
-.numbers-summary a:hover {
+.btn-link, .btn-outline, .subset-files-tab, .btn-octicon:hover,
+.commit-id:hover, .discussion-item-help:hover, .link-gray-dark:hover,
+.menu-target:hover, .message:hover, .muted-link:hover, .social-count:hover,
+.tabnav-extra:hover, .timeline-comment-action:hover, .title-link:hover,
+.toolbar-item:hover, .numbers-summary a:hover, .menu-target:focus,
+.timeline-comment-action:focus {
   color: #4078c0 !important;
 }
 .filter-item.selected, .suggester .navigation-focus,
@@ -59,6 +58,12 @@ a {
   background-color: #6e5494 !important;
 }
 /* white */
-.btn-danger:hover, .btn-outline:hover {
+.add-line-comment, .btn-danger:hover, .btn-outline:hover {
   color: #fff !important;
+}
+.label-select-menu .navigation-focus {
+  background-color: #f4f4f4 !important;
+}
+.muted-link, .table-list-header-toggle .btn-link, .tabnav-tab {
+  color: #586069 !important;
 }
