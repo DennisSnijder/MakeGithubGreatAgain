@@ -39,11 +39,11 @@ a {
 .timeline-comment-action:focus {
   color: #4078c0 !important;
 }
-.filter-item.selected, .suggester .navigation-focus,
-.select-menu-item.navigation-focus,
-.select-menu-item.navigation-focus .description-inline, .btn-outline:hover,
-.diff-expander:hover, .dropdown-item:hover, .reaction-sort-item:hover,
-.timeline-commits .ellipsis-expander:hover {
+.filter-item.selected, .bg-blue,
+.select-menu-item.navigation-focus .description-inline,
+.select-menu-item.navigation-focus, .suggester .navigation-focus,
+.dropdown-item:hover, .diff-expander:hover, .btn-outline:hover,
+.timeline-commits .ellipsis-expander:hover, .reaction-sort-item:hover {
   background-color: #4078c0 !important;
 }
 .select-menu-item-parent.select-menu-item.navigation-focus {
