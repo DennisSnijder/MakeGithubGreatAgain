@@ -31,12 +31,12 @@
 a {
   color: #4078c0; /* do not mark important */
 }
-.btn-link, .btn-outline, .subset-files-tab, .btn-octicon:hover,
-.commit-id:hover, .discussion-item-help:hover, .link-gray-dark:hover,
-.menu-target:hover, .message:hover, .muted-link:hover, .social-count:hover,
-.tabnav-extra:hover, .timeline-comment-action:hover, .title-link:hover,
-.toolbar-item:hover, .numbers-summary a:hover, .menu-target:focus,
-.timeline-comment-action:focus {
+.subset-files-tab, .btn-outline, .btn-link,
+.notification-actions .btn-link:hover, .timeline-comment-action:hover,
+.discussion-item-help:hover, .link-gray-dark:hover, .toolbar-item:hover,
+.btn-octicon:hover, .title-link:hover, .muted-link:hover, .commit-id:hover,
+.tabnav-extra:hover, .social-count:hover, .menu-target:hover, .message:hover,
+.numbers-summary a:hover, .timeline-comment-action:focus, .menu-target:focus {
   color: #4078c0 !important;
 }
 .filter-item.selected, .bg-blue,
@@ -64,6 +64,7 @@ a {
 .label-select-menu .navigation-focus {
   background-color: #f4f4f4 !important;
 }
-.muted-link, .table-list-header-toggle .btn-link, .tabnav-tab {
+.table-list-header-toggle .btn-link, .notification-actions .btn-link,
+.tabnav-tab, .muted-link {
   color: #586069 !important;
 }
