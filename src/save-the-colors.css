@@ -25,13 +25,21 @@
   background-image: linear-gradient(#79d858, #569e3d);
   border-color: #4a993e;
 }
-
 /* Without this, when we hover over submit buttons, they get an ugly bar across the bottom */
 .great-again .btn-primary:hover {
   background-position: 0;
 }
 .great-again .text-green {
   color: #6cc644 !important;
+}
+.great-again .release-label.latest {
+  background-color: #6cc644;
+}
+.great-again .release-label.draft {
+  background-color: #bd2c00;
+}
+.great-again .release-label.prerelease {
+  background-color: #c9510c;
 }
 .great-again .branch-action-state-clean .branch-action-body {
   border-color: #95c97e !important;
