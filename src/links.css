@@ -23,6 +23,11 @@
     color: #fff !important;
 }
 
+/* Green labels on the left of the Releases page */
+.great-again .release-label a {
+    color: #fff !important;
+}
+
 .great-again table.files td.icon .octicon-file-directory {
     color: #4078c0;
 }
