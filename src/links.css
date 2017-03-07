@@ -47,3 +47,11 @@
 .great-again .repository-meta {
     color: #666;
 }
+
+/* The pager on the Forks page: "Contributors, Commits, Code frequency, ..." */
+.great-again .subnav-item.selected,
+.great-again .subnav-item.selected:hover,
+.great-again .subnav-item.selected:focus {
+    background-color:#4078c0;
+    border-color:#4078c0
+}
