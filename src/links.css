@@ -8,7 +8,7 @@
 
 /* This is the "125 commits, 1 branch, 28 releases, ..." above the file listing on each repo home page. */
 /* The rule above accidentally styles these, but the new theme changed it too, so either way we need to redefine it. */
-/* (There are actually more details in the <svg> and .text-emphasized which changed, but I didn't bother to restore them.) */
+/* (There are actually a few minor color changes in the <svg> and .text-emphasized, but I didn't bother to restore them.) */
 /* We use !important because the rule above is too specific to override easily! */
 .great-again .numbers-summary a {
     color: #767676 !important;
@@ -24,6 +24,7 @@
 }
 
 /* Green labels on the left of the Releases page */
+/* There are various blue links on the Releases page that should be black or grey, but added complexity to fix them did not seem worthwhile. */
 .great-again .release-label a {
     color: #fff !important;
 }
