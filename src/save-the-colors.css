@@ -1,102 +1,139 @@
 /* red */
-.great-again .state-closed, .great-again .block-diff-deleted,
+.great-again .state-closed,
+.great-again .block-diff-deleted,
 .great-again .discussion-item-closed .discussion-item-icon {
-  background-color: #bd2c00 !important;
+    background-color: #bd2c00 !important;
 }
 .great-again .btn-danger:hover {
-  background-image: linear-gradient(#ec5757, #c71616) !important;
+    background-image: linear-gradient(#ec5757, #c71616) !important;
 }
-.great-again .text-red, .great-again .btn-danger {
-  color: #bd2c00 !important;
+.great-again .text-red,
+.great-again .btn-danger {
+    color: #bd2c00 !important;
 }
+
 /* green */
-.great-again .bg-green, .great-again .state-open, .great-again .completeness-indicator-success,
+.great-again .bg-green,
+.great-again .state-open,
+.great-again .completeness-indicator-success,
 .great-again .branch-action-state-clean .branch-action-icon,
 .great-again .discussion-item-reopened .discussion-item-icon {
-  background-color: #6cc644 !important;
+    background-color: #6cc644 !important;
 }
 .great-again .block-diff-added {
-  background-color: #55a532 !important;
+    background-color: #55a532 !important;
 }
 .great-again .btn-primary {
-  background-image: linear-gradient(#91dd70, #55ae2e);
+    background-image: linear-gradient(#91dd70, #55ae2e);
 }
 .great-again .btn-primary:hover {
-  background-image: linear-gradient(#79d858, #569e3d);
-  border-color: #4a993e;
+    background-image: linear-gradient(#79d858, #569e3d);
+    border-color: #4a993e;
 }
 /* Without this, when we hover over submit buttons, they get an ugly bar across the bottom */
 .great-again .btn-primary:hover {
-  background-position: 0;
+    background-position: 0;
 }
 .great-again .text-green {
-  color: #6cc644 !important;
+    color: #6cc644 !important;
 }
 .great-again .release-label.latest {
-  background-color: #6cc644;
+    background-color: #6cc644;
 }
 .great-again .release-label.draft {
-  background-color: #bd2c00;
+    background-color: #bd2c00;
 }
 .great-again .release-label.prerelease {
-  background-color: #c9510c;
+    background-color: #c9510c;
 }
 .great-again .branch-action-state-clean .branch-action-body {
-  border-color: #95c97e !important;
-}
-/* blue */
-a {
-  color: #4078c0; /* do not mark important */
-}
-.great-again .subset-files-tab, .great-again .btn-outline, .great-again .btn-link,
-.great-again .notification-actions .btn-link:hover, .great-again .timeline-comment-action:hover,
-.great-again .discussion-item-help:hover, .great-again .link-gray-dark:hover, .great-again .toolbar-item:hover,
-.great-again .btn-octicon:hover, .great-again .title-link:hover, .great-again .muted-link:hover, .great-again .commit-id:hover,
-.great-again .tabnav-extra:hover, .great-again .social-count:hover, .great-again .menu-target:hover, .great-again .message:hover,
-.great-again .numbers-summary a:hover, .great-again .timeline-comment-action:focus, .great-again .menu-target:focus {
-  color: #4078c0 !important;
-}
-.great-again .filter-item.selected, .great-again .bg-blue,
-.great-again .select-menu-item.navigation-focus .description-inline,
-.great-again .select-menu-item.navigation-focus, .great-again .suggester .navigation-focus,
-.great-again .dropdown-item:hover, .great-again .diff-expander:hover, .great-again .btn-outline:hover,
-.great-again .timeline-commits .ellipsis-expander:hover, .great-again .reaction-sort-item:hover {
-  background-color: #4078c0 !important;
-}
-.great-again .select-menu-item-parent.select-menu-item.navigation-focus {
-  color: #24292e !important;
-  background-color: #f1f8ff !important;
-}
-.great-again .add-line-comment {
-  background-image: linear-gradient(#5386c6, #4078c0) !important;
-}
-/* purple */
-.great-again .state-merged, .great-again .discussion-item-merged .discussion-item-icon {
-  background-color: #6e5494 !important;
-}
-/* white */
-.great-again .add-line-comment, .great-again .btn-danger:hover, .great-again .btn-outline:hover {
-  color: #fff !important;
-}
-.great-again .label-select-menu .navigation-focus {
-  background-color: #f4f4f4 !important;
-}
-.great-again .table-list-header-toggle .btn-link, .great-again .notification-actions .btn-link,
-.great-again .tabnav-tab, .great-again .muted-link {
-  color: #586069 !important;
+    border-color: #95c97e !important;
 }
 
-.great-again .closed.octicon, .great-again .reverted.octicon {
-  color: #bd2c00
+/* blue */
+a {
+    color: #4078c0; /* do not mark important */
+}
+.great-again .subset-files-tab,
+.great-again .btn-outline,
+.great-again .btn-link,
+.great-again .notification-actions .btn-link:hover,
+.great-again .timeline-comment-action:hover,
+.great-again .discussion-item-help:hover,
+.great-again .link-gray-dark:hover,
+.great-again .toolbar-item:hover,
+.great-again .btn-octicon:hover,
+.great-again .title-link:hover,
+.great-again .muted-link:hover,
+.great-again .commit-id:hover,
+.great-again .tabnav-extra:hover,
+.great-again .social-count:hover,
+.great-again .menu-target:hover,
+.great-again .message:hover,
+.great-again .numbers-summary a:hover,
+.great-again .timeline-comment-action:focus,
+.great-again .menu-target:focus {
+    color: #4078c0 !important;
+}
+.great-again .filter-item.selected,
+.great-again .bg-blue,
+.great-again .select-menu-item.navigation-focus .description-inline,
+.great-again .select-menu-item.navigation-focus,
+.great-again .suggester .navigation-focus,
+.great-again .dropdown-item:hover,
+.great-again .diff-expander:hover,
+.great-again .btn-outline:hover,
+.great-again .timeline-commits .ellipsis-expander:hover,
+.great-again .reaction-sort-item:hover {
+    background-color: #4078c0 !important;
+}
+.great-again .select-menu-item-parent.select-menu-item.navigation-focus {
+    color: #24292e !important;
+    background-color: #f1f8ff !important;
+}
+.great-again .add-line-comment {
+    background-image: linear-gradient(#5386c6, #4078c0) !important;
+}
+
+/* purple */
+.great-again .state-merged,
+.great-again .discussion-item-merged .discussion-item-icon {
+    background-color: #6e5494 !important;
+}
+
+/* white */
+.great-again .add-line-comment,
+.great-again .btn-danger:hover,
+.great-again .btn-outline:hover {
+    color: #fff !important;
+}
+.great-again .label-select-menu .navigation-focus {
+    background-color: #f4f4f4 !important;
+}
+
+/* grey */
+.great-again .table-list-header-toggle .btn-link,
+.great-again .notification-actions .btn-link,
+.great-again .tabnav-tab,
+.great-again .muted-link {
+    color: #586069 !important;
+}
+
+/* red, green and purple in issues/PRs */
+.great-again .closed.octicon,
+.great-again .reverted.octicon {
+    color: #bd2c00;
 }
 .great-again .open.octicon {
-  color: #6cc644
+    color: #6cc644;
 }
 .great-again .merged.octicon {
-  color: #6e5494
+    color: #6e5494;
 }
+
+/* The blueish box that displays the latest commit */
 .great-again .commit-tease {
-  color: #68777d;
-  background-color: #f2f9fc;
-  border: 1px solid #c9e6f2;
+    color: #68777d;
+    background-color: #f2f9fc;
+    border: 1px solid #c9e6f2;
 }
