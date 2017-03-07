@@ -95,3 +95,8 @@ a {
 .great-again .merged.octicon {
   color: #6e5494
 }
+.great-again .commit-tease {
+  color: #68777d;
+  background-color: #f2f9fc;
+  border: 1px solid #c9e6f2;
+}
