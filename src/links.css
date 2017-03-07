@@ -21,3 +21,20 @@
 .great-again .flash {
     background-color: #f2f9fc;
 }
+
+/* Text in the file listing table */
+/* The new design has made these darker (#6a737d) */
+.great-again table.files td.message a,
+.great-again table.files td.age {
+    color: #888;
+}
+
+/* File icons in the file listing table (used to be grey, new theme makes them blue) */
+.great-again table.files td.icon {
+    color: #767676;
+}
+
+/* The repo description at the top of the repo home page */
+.great-again .repository-meta {
+    color: #666;
+}
