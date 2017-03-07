@@ -77,3 +77,13 @@ a {
 .great-again .tabnav-tab, .great-again .muted-link {
   color: #586069 !important;
 }
+
+.great-again .closed.octicon, .great-again .reverted.octicon {
+  color: #bd2c00
+}
+.great-again .open.octicon {
+  color: #6cc644
+}
+.great-again .merged.octicon {
+  color: #6e5494
+}
