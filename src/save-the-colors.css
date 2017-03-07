@@ -89,6 +89,7 @@ a {
 .great-again .diff-expander:hover,
 .great-again .btn-outline:hover,
 .great-again .timeline-commits .ellipsis-expander:hover,
+.great-again .discussion-item-changes-marker.is-unread .discussion-item-icon,
 .great-again .reaction-sort-item:hover {
     background-color: #4078c0 !important;
 }
