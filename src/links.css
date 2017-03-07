@@ -1,5 +1,17 @@
-.great-again .main a:not(.btn) {
+/* Links */
+.great-again [role=main] a:not(.btn):not(.social-count):not(.reponav-item):not(.message):not(.commit-author):not(.user-mention):not(.commit-tease-sha),
+.great-again .btn-outline {
     color: #4078c0;
+}
+/* I can't remember why I added this, but I've disabled it now so that it doesn't turn the issue counts blue ("5 Open 12 Closed" at the top of the Issues page) */
+/* .great-again .btn-link, */
+
+/* This is the "125 commits, 1 branch, 28 releases, ..." above the file listing on each repo home page. */
+/* The rule above accidentally styles these, but the new theme changed it too, so either way we need to redefine it. */
+/* (There are actually more details in the <svg> and .text-emphasized which changed, but I didn't bother to restore them.) */
+/* We use !important because the rule above is too specific to override easily! */
+.great-again .numbers-summary a {
+    color: #767676 !important;
 }
 
 .great-again table.files td.icon .octicon-file-directory {
