@@ -51,9 +51,14 @@
 }
 
 /* blue */
+/* This rule gets masked due to our early injection.  Although with late injection it could be quite useful. */
+/* If we add .great-again then it will be toggleable, but it will apply to many links it shouldn't! */
+/* Anyway for now, <a> links are handled in links.css */
+/*
 a {
-    color: #4078c0; /* do not mark important */
+    color: #4078c0; --- do not mark important ---
 }
+*/
 .great-again .subset-files-tab,
 .great-again .btn-outline,
 .great-again .btn-link,
