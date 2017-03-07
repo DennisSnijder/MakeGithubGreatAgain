@@ -16,7 +16,10 @@
 
 /* Our link styling above will break the hovered branch in the "Switch branches/tags" dropdown. */
 /* Again we need !important because the above rule is difficult to override. */
-.great-again .select-menu-item.navigation-focus, .great-again .select-menu-item.navigation-focus.selected, .great-again .select-menu-item.navigation-focus.select-menu-action, .great-again .select-menu-item.navigation-focus .description-inline {
+.great-again .select-menu-item.navigation-focus,
+.great-again .select-menu-item.navigation-focus.selected,
+.great-again .select-menu-item.navigation-focus.select-menu-action,
+.great-again .select-menu-item.navigation-focus .description-inline {
     color: #fff !important;
 }
 
