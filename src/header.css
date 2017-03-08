@@ -4,10 +4,10 @@
     border-bottom: 1px solid #e5e5e5
 }
 
-.great-header .header-search-scope {
-   color: rgb(64, 120, 192);
-   background-color: rgb(237, 242, 249);
-   border-color: rgb(198, 215, 236);
+.great-header .scoped-search .form-control.focus .header-search-scope {
+    color: #4078c0;
+    background-color: #edf2f9;
+    border-color: #c6d7ec;
 }
 
 .great-header .read-only-mode-banner {
@@ -30,10 +30,10 @@
     background-color: #4078c0
 }
 
-.great-header .header-search-scope {
+.great-header.header .header-search-scope {
     font-size: inherit;
-    color: #767676 !important;
-    border-right: 1px solid #eee !important;
+    color: #767676;
+    border-right: 1px solid #eee;
 }
 
 .great-header .scoped-search .form-control.focus .header-search-scope {
