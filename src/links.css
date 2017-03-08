@@ -50,7 +50,7 @@
 /* The repo description at the top of the repo home page */
 .great-again .repository-meta,
 .great-again .repository-meta .text-gray-dark {
-    color: #666;
+    color: #666 !important;
 }
 
 /* The pager on the Forks page: "Contributors, Commits, Code frequency, ..." */
