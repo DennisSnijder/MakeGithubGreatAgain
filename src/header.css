@@ -109,3 +109,49 @@
     /* IE 10+ */
     color: #767676 !important;
 }
+
+/* The logo and text used to be darker */
+.great-header .header-nav-link,
+.great-header .header-logo-invertocat, .great-header .header-logo-wordmark {
+    color: #333;
+}
+/* The search box had a gentle border */
+.great-header.header .header-search-wrapper {
+    border: 1px solid #ddd;
+}
+/* The selector next to the search box was just plain white (now fixed above) */
+/*
+.great-header .header-search-scope {
+    background-color: white;
+}
+*/
+/* And it had a blue border when focused */
+.great-header .form-control.focus, .form-control:focus, .form-select.focus, .form-select:focus {
+    border-color: #51a7e8;
+    /* With a hideous blue glow which I think we can neglect to restore */
+    /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset, 0 0 5px rgba(81, 167, 232, 0.5) !important; */
+    outline: medium none;
+}
+
+/* According to my Firefox, the header did not used to be so tall */
+/* Some people might not want to go back to a short header, so I have made this a separate class.  Add it for a more faithful classic look. */
+.short-header.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* The text was smaller */
+.short-header .header-nav-link {
+    font-size: 13px;
+}
+/* And the logo was smaller */
+.short-header .header-logo-invertocat .octicon-mark-github {
+    padding: 2px;
+}
+/* The search box was also less tall */
+.short-header.header .header-search-scope {
+    line-height: 26px;
+}
+.short-header.header .header-search-wrapper,
+.short-header.header .header-search-input {
+    min-height: 26px;
+}
