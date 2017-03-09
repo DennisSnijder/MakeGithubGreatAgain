@@ -148,6 +148,9 @@
     padding: 2px;
 }
 /* The search box was also less tall */
+.short-header.header .header-search {
+    margin-top: 1px;
+}
 .short-header.header .header-search-scope {
     line-height: 26px;
 }
