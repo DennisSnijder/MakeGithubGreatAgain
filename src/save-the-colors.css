@@ -146,6 +146,9 @@ a {
     background-color: #f2f9fc;
     border: 1px solid #c9e6f2;
 }
+.commit-tease-contributors {
+    border-top: 1px solid #c9e6f2;
+}
 
 /* The area below the header is slightly blue in the redesign.  This turns it back to grey. */
 .great-again .repohead.experiment-repo-nav {
