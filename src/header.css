@@ -27,7 +27,8 @@
 }
 
 .great-header .notification-indicator:hover .mail-status {
-    background-color: #4078c0
+    background-color: #4078c0;
+    background-image: linear-gradient(#4078c0, #4078c0);
 }
 
 .great-header.header .header-search-scope {
