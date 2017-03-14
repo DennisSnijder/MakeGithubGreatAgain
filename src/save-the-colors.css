@@ -154,3 +154,10 @@ a {
 .great-again .repohead.experiment-repo-nav {
     background-color: #fafafa;
 }
+
+/* The new active tab highlight stripe. There was no old colour, so I just lightened it. */
+.great-again .reponav-item.selected {
+    color: #24292e;
+    background-color: #fff;
+    border-color: #e09a6a #e1e4e8 transparent;
+}
