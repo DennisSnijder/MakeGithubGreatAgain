@@ -21,14 +21,14 @@
 
 .great-header .notification-indicator .mail-status {
     color: #fff;
-    background-image: -webkit-linear-gradient(#1cafff, #0086ce);
-    background-image: linear-gradient(#1cafff, #0086ce);
+    background-image: -webkit-linear-gradient(#7aa1d3, #4078c0);
+    background-image: linear-gradient(#7aa1d3, #4078c0);
     border: 2px solid #f3f3f3
 }
 
 .great-header .notification-indicator:hover .mail-status {
     background-color: #4078c0;
-    background-image: linear-gradient(#4078c0, #4078c0);
+    /* background-image: linear-gradient(#4078c0, #4078c0); */
 }
 
 .great-header.header .header-search-scope {
