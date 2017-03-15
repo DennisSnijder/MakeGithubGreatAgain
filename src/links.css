@@ -41,6 +41,8 @@
 .great-again table.files td.message a:hover,
 .great-again td.content a,
 .great-again ul.simple-conversation-list.varied-states a,
+/* Link to issue from commit-tease on front-page */
+.great-again .commit-tease a.issue-link,
 .great-again a.wiki-page-link {
     color: #4078c0;
 }
