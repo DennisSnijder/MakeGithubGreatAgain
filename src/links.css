@@ -1,6 +1,56 @@
 /* Links */
+
+/*
 .great-again [role=main] a:not(.btn):not(.social-count):not(.reponav-item):not(.message):not(.commit-author):not(.user-mention):not(.commit-tease-sha):not(.issues-reset-query):not(.subnav-item):not(.author):not(.timestamp):not(.selected):not(.text-emphasized):not(.commit-id):not(.lock-toggle-link):not(.commit-link):not(.diff-expander):not(.issue-link):not(.milestone-name):not(.discussion-item-entity):not(.assignee),
 .great-again .btn-outline {
+    color: #4078c0;
+}
+*/
+
+.great-again #issues a,
+.great-again #pull-requests a,
+.great-again .ajax-pagination-form a,
+.great-again .alert a,
+.great-again .blankslate a,
+.great-again .contrib-footer a,
+.great-again .form-group a,
+.great-again .js-plan-choice-label a,
+.great-again .js-repo-filter h3 a,
+.great-again .markdown-body a,
+.great-again .menu a,
+.great-again .meta-search-links a,
+.great-again .mini-repo-list a,
+.great-again .more-repos a,
+.great-again .more-repos-link a,
+.great-again .news .text-center a,
+.great-again .numbers-summary a:hover,
+.great-again .pagination a,
+.great-again .pinned-repo-item-content .d-block a,
+.great-again .profile-rollup-content>li>div>a:first-child,
+.great-again .profile-rollup-content>li>span>a,
+.great-again .protip a,
+.great-again .repo-list a,
+.great-again .repohead-details-container>h1 a,
+.great-again .repository-meta-content a,
+.great-again .site-footer a,
+.great-again .tos-info a,
+.great-again .vcard-details a,
+.great-again a.aname,
+.great-again a.link-gray-dark:hover,
+.great-again a.muted-link:hover,
+.great-again table.files td.message a:hover,
+.great-again td.content a,
+.great-again ul.simple-conversation-list.varied-states a {
+    color: #4078c0;
+}
+
+.great-again .ajax-pagination-form .ajax-pagination-btn,
+.great-again .btn-invisible,
+.great-again .btn-outline,
+.great-again .member-badge,
+.great-again .page-new-repo .license-info,
+.great-again button.muted-link:hover,
+.great-again .discussion-sidebar-toggle:hover {
     color: #4078c0;
 }
 
