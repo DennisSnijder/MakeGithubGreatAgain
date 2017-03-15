@@ -1,5 +1,5 @@
 /* Links */
-.great-again [role=main] a:not(.btn):not(.social-count):not(.reponav-item):not(.message):not(.commit-author):not(.user-mention):not(.commit-tease-sha):not(.issues-reset-query):not(.subnav-item):not(.author):not(.timestamp):not(.selected):not(.text-emphasized):not(.commit-id):not(.lock-toggle-link):not(.commit-link):not(.diff-expander),
+.great-again [role=main] a:not(.btn):not(.social-count):not(.reponav-item):not(.message):not(.commit-author):not(.user-mention):not(.commit-tease-sha):not(.issues-reset-query):not(.subnav-item):not(.author):not(.timestamp):not(.selected):not(.text-emphasized):not(.commit-id):not(.lock-toggle-link):not(.commit-link):not(.diff-expander):not(.issue-link),
 .great-again .btn-outline {
     color: #4078c0;
 }
