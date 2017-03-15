@@ -40,7 +40,8 @@
 .great-again a.muted-link:hover,
 .great-again table.files td.message a:hover,
 .great-again td.content a,
-.great-again ul.simple-conversation-list.varied-states a {
+.great-again ul.simple-conversation-list.varied-states a,
+.great-again a.wiki-page-link {
     color: #4078c0;
 }
 
