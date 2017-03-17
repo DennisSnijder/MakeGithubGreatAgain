@@ -9,7 +9,7 @@
 .great-again .form-group a,
 .great-again .js-plan-choice-label a,
 .great-again .js-repo-filter h3 a,
-.great-again .markdown-body a,
+.great-again .markdown-body a:not(.user-mention):not(.team-mention),
 .great-again .menu a,
 .great-again .meta-search-links a,
 .great-again .mini-repo-list a,
