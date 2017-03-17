@@ -37,14 +37,21 @@
 .great-again .text-green {
     color: #6cc644 !important;
 }
+/* Coloured labels on the left of the Releases page */
 .great-again .release-label.latest {
     background-color: #6cc644;
+    border-color: transparent;
 }
 .great-again .release-label.draft {
     background-color: #bd2c00;
+    border-color: transparent;
 }
 .great-again .release-label.prerelease {
     background-color: #c9510c;
+    border-color: transparent;
+}
+.great-again .release-label a {
+    color: #fff !important;
 }
 .great-again .branch-action-state-clean .branch-action-body {
     border-color: #95c97e !important;
@@ -96,9 +103,25 @@ a {
 .great-again .select-menu-item-parent.select-menu-item.navigation-focus {
     color: #24292e !important;
     background-color: #f1f8ff !important;
+    /* Is that right? #f1f8ff is used in some parts of the new theme to replace #f2f9fc in the old. */
+    /* Using that in time time being.  Until I find out where on the site .select-menu-item-parent is actually used! */
+    background-color: #f2f9fc !important;
 }
 .great-again .add-line-comment {
     background-image: linear-gradient(#5386c6, #4078c0) !important;
+}
+/* The tags which appear below the repo description */
+.great-again .topic-tag-link {
+    color: #4078c0;
+    /* background-color: #f1f8ff; */
+    background-color: #f2f9fc;
+}
+/* Currently selected tab on /releases page: "Releases | Tags", or on /network page: "Contributors | Commits | Code frequency | ..." */
+.great-again .subnav-item.selected,
+.great-again .subnav-item.selected:hover,
+.great-again .subnav-item.selected:focus {
+    background-color: #4078c0;
+    border-color: #4078c0;
 }
 
 /* purple */
@@ -128,6 +151,12 @@ a {
     color: #586069 !important;
 }
 
+/* The repo description at the top of the repo home page */
+.great-again .repository-meta,
+.great-again .repository-meta .text-gray-dark {
+    color: #666 !important;
+}
+
 /* red, green and purple in issues/PRs */
 .great-again .closed.octicon,
 .great-again .reverted.octicon {
@@ -150,6 +179,11 @@ a {
     border-top: 1px solid #c9e6f2;
 }
 
+/* Messages which pop up when an errors occurs */
+.great-again .flash {
+    background-color: #f2f9fc;
+}
+
 /* The area below the header is slightly blue in the redesign.  This turns it back to grey. */
 .great-again .repohead.experiment-repo-nav {
     background-color: #fafafa;
@@ -160,4 +194,30 @@ a {
     color: #24292e;
     background-color: #fff;
     border-color: #e09a6a #e1e4e8 transparent;
+}
+
+/* File listings */
+/* Folder icons used to have the same color as the links */
+.great-again table.files td.icon .octicon-file-directory {
+    color: #4078c0;
+}
+/* Text (last commit message, and age).  The new design has made these darker (#6a737d) */
+.great-again table.files td.message a,
+.great-again table.files td.age {
+    color: #888;
+}
+/* File icons used to be grey but the new theme made them blue for a while, and then a darker grey. */
+.great-again table.files td.icon {
+    color: #767676;
+}
+
+/* Search boxes have a blue border and a fine glow when focused. */
+/* There is one search box in the header, and another on the issues page. */
+.great-again .form-control.focus,
+.great-again .form-control:focus,
+.great-again .form-select.focus,
+.great-again .form-select:focus {
+    border-color: #51a7e8;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset, 0 0 5px rgba(81, 167, 232, 0.5) !important;
+    outline: medium none;
 }
