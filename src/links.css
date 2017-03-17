@@ -43,6 +43,8 @@
 .great-again ul.simple-conversation-list.varied-states a,
 /* Link to issue from commit-tease on front-page */
 .great-again .commit-tease a.issue-link,
+/* PR id in PR page */
+.great-again .gh-header-title .js-issue-title a,
 .great-again a.wiki-page-link {
     color: #4078c0;
 }
