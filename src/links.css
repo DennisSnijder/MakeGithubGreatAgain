@@ -38,6 +38,9 @@
 .great-again .commit-tease a.issue-link,
 /* PR id in PR page */
 .great-again .gh-header-title .js-issue-title a,
+/* Titles and download links on the /releases page */
+.great-again .release-title a,
+.great-again .release-downloads a,
 /* Links to Wiki pages */
 .great-again a.wiki-page-link {
     color: #4078c0;
