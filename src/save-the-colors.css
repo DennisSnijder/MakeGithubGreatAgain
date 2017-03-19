@@ -227,3 +227,10 @@ a {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset, 0 0 5px rgba(81, 167, 232, 0.5) !important;
     outline: medium none;
 }
+
+/* yellow */
+/* As seen here: https://github.com/ssbc/patchwork/network/members */
+/* This is probably the new color, and we will need to dig up the old one. */
+.network .current-repository {
+    background-color: #fff6a9;
+}

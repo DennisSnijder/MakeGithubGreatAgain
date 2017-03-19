@@ -59,3 +59,8 @@
 .great-again .discussion-sidebar-toggle:hover {
     color: #4078c0;
 }
+
+/* Hovered circles on the /graphs/punch-card page */
+.great-again circle.day:hover {
+    fill: #4078c0;
+}
