@@ -41,6 +41,10 @@
 /* Titles and download links on the /releases page */
 .great-again .release-title a,
 .great-again .release-downloads a,
+/* Links to members on the the /network/members page */
+.great-again .network .repo a,
+/* Links to members on the /org/.../people page */
+.great-again .member-info a,
 /* Links to Wiki pages */
 .great-again a.wiki-page-link {
     color: #4078c0;

@@ -123,6 +123,12 @@ a {
     background-color: #4078c0;
     border-color: #4078c0;
 }
+/* Pager on the /orgs/.../people page */
+.great-again .pagination .current,
+.great-again .pagination .current:hover {
+    background-color: #4078c0;
+    border-color: #4078c0;
+}
 
 /* purple */
 .great-again .state-merged,
