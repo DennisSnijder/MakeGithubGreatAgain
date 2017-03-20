@@ -41,6 +41,8 @@
 /* Titles and download links on the /releases page */
 .great-again .release-title a,
 .great-again .release-downloads a,
+/* Link to content on the /graphs/traffic page */
+.great-again .repository-content .capped-list-label a,
 /* Links to members on the the /network/members page */
 .great-again .network .repo a,
 /* Links to members on the /org/.../people page */
