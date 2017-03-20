@@ -68,7 +68,7 @@ a {
 */
 .great-again .subset-files-tab,
 .great-again .btn-outline,
-.great-again .btn-link,
+.great-again .btn-link:not(.lock-toggle-link),
 .great-again .notification-actions .btn-link:hover,
 .great-again .timeline-comment-action:hover,
 .great-again .discussion-item-help:hover,
