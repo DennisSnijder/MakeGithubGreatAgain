@@ -110,11 +110,16 @@ a {
 .great-again .add-line-comment {
     background-image: linear-gradient(#5386c6, #4078c0) !important;
 }
-/* The tags which appear below the repo description */
-.great-again .topic-tag-link {
+/* The tags which appear below the repo description: classic blue-on-blue */
+.great-again .topic-tag-link,
+.great-again .repo-list a.topic-tag-link {
     color: #4078c0;
     /* background-color: #f1f8ff; */
     background-color: #f2f9fc;
+}
+.great-again .topic-tag-link:hover,
+.great-again .repo-list a.topic-tag-link:hover {
+    background-color: #ddeeff;
 }
 /* Currently selected tab on /releases page: "Releases | Tags", or on /network page: "Contributors | Commits | Code frequency | ..." */
 .great-again .subnav-item.selected,
