@@ -66,9 +66,10 @@ a {
     color: #4078c0; --- do not mark important ---
 }
 */
+/* Styling all .btn-link is too problematic.  We need to select them specifically. */
+/* .great-again .btn-link:not(.lock-toggle-link):not(.tabnav-tab), */
 .great-again .subset-files-tab,
 .great-again .btn-outline,
-.great-again .btn-link:not(.lock-toggle-link),
 .great-again .notification-actions .btn-link:hover,
 .great-again .timeline-comment-action:hover,
 .great-again .discussion-item-help:hover,
