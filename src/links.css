@@ -62,6 +62,11 @@
     color: #4078c0;
 }
 
+/* We accidentally overrode this above */
+.great-again .menu-item.selected {
+    color: #24292e;
+}
+
 /* Hovered circles on the /graphs/punch-card page */
 .great-again circle.day:hover {
     fill: #4078c0;
