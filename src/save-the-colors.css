@@ -127,17 +127,20 @@ a {
 /* The .repo-list rules are needed to override the .repo-list rule for links which appears on /search?q=topic... */
 .great-again .topic-tag-link,
 .great-again .repo-list a.topic-tag-link {
-    /* Dark grey (nav text) on light grey (header background) */
+    /* Dark grey (nav links) on light grey (header background) */
     background-color: #f5f5f5;
     color: #586069;
 }
 .great-again .topic-tag-link:hover,
 .great-again .repo-list a.topic-tag-link:hover {
-    /* On hover, the current site design is to darken the background */
+    /* On hover, the current site design is to darken the background. */
     background-color: #eaeaea;
-    /* But I quite like to turn the links blue, consistent with e.g. Forks and Stars links */
-    /* color: #4078c0; */
+    /* If we don't want that, then we need to reenforce the background we use above. */
     /* background-color: #f5f5f5; */
+    /* We could turn the links blue on hover, consistent with e.g. Forks and Stars links, but it isn't so pretty. */
+    /* color: #4078c0; */
+    /* This makes the hovered links darker, consistent with the nav links. */
+    color: #24292e;
 }
 /* Currently selected tab on /releases page: "Releases | Tags", or on /network page: "Contributors | Commits | Code frequency | ..." */
 .great-again .subnav-item.selected,
