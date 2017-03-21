@@ -126,36 +126,14 @@ a {
 /* The .repo-list rules are needed to override the .repo-list rule for links which appears on /search?q=topic... */
 .great-again .topic-tag-link,
 .great-again .repo-list a.topic-tag-link {
-    /* White-on-solid-blue or white-on-solid-grey */
-    /* background-color: #4078c0; */
-    /* background-color: #659be0; */
-    /* background-color: #76a0d6; */
-    /* background-color: #888; */
-    /* color: #fff; */
-
-    /* Or white with grey outline */
-    /* border: 1px solid #888; */
-    /* background-color: #fff; */
-    /* color: #666; */
-
-    /* Or white with classic blue outline */
-    /* border: 1px solid #4078c0; */
-    /* background-color: #fff; */
-    /* color: #4078c0; */
-
-    /* Or dark grey on light grey */
-    /* background-color: #f2f2f2; */
-    /* color: #666; */
-    /* Or dark grey (nav text) on light grey (header background) */
+    /* Dark grey (nav text) on light grey (header background) */
     background-color: #f5f5f5;
     color: #586069;
 }
 .great-again .topic-tag-link:hover,
 .great-again .repo-list a.topic-tag-link:hover {
-    /* opacity: 0.8; */
     /* On hover, the current site design is to darken the background */
     background-color: #eaeaea;
-    /* background-color: #fff; */
     /* But I quite like to turn the links blue, consistent with e.g. Forks and Stars links */
     /* color: #4078c0; */
     /* background-color: #f5f5f5; */
