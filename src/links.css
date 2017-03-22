@@ -12,6 +12,10 @@
 .great-again .markdown-body a:not(.user-mention):not(.team-mention),
 .great-again .menu a,
 .great-again .meta-search-links a,
+/* Links inside the change summary of a submodule in diff view */
+.great-again .js-file-content .data.highlight.empty a,
+/* The link "Only those with write access" on open PR of other projects */
+.great-again .status-meta a,
 .great-again .mini-repo-list a,
 .great-again .more-repos a,
 .great-again .more-repos-link a,
