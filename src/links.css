@@ -7,6 +7,14 @@
 .great-again .blankslate a,
 .great-again .contrib-footer a,
 .great-again .form-group a,
+/* The "compare across forks" link on /compare page */
+.great-again .gh-header-meta .btn-link,
+/* The "Learn more" link below the comment editor */
+.great-again .timeline-comment .js-menu-container .btn-link,
+/* "Showing 14 changes files" on /compare/...?expand=1 */
+.great-again .toc-diff-stats .btn-link,
+/* Numbers next to reaction counts, e.g. on issue pages */
+.great-again .comment-reactions-options .btn-link,
 .great-again .js-plan-choice-label a,
 .great-again .js-repo-filter h3 a,
 .great-again .markdown-body a:not(.user-mention):not(.team-mention),
