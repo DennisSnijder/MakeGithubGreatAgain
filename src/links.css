@@ -11,6 +11,8 @@
 .great-again .gh-header-meta .btn-link,
 /* The "Learn more" link below the comment editor */
 .great-again .timeline-comment .js-menu-container .btn-link,
+/* The "Learn more" link below "Allow edits from maintainers" to the right of a PR */
+.great-again .btn-link.fork-collab-link,
 /* "Showing 14 changes files" on /compare/...?expand=1 */
 .great-again .toc-diff-stats .btn-link,
 /* Numbers next to reaction counts, e.g. on issue pages */
