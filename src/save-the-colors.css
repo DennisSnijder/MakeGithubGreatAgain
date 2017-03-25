@@ -234,7 +234,8 @@ a {
 
 /* File listings */
 /* Folder icons used to have the same color as the links */
-.great-again table.files td.icon .octicon-file-directory {
+.great-again table.files td.icon .octicon-file-directory,
+.great-again table.files td.icon .octicon-file-submodule {
     color: #4078c0;
 }
 /* Text (last commit message, and age).  The new design has made these darker (#6a737d) */
