@@ -17,6 +17,8 @@
 .great-again .toc-diff-stats .btn-link,
 /* Numbers next to reaction counts, e.g. on issue pages */
 .great-again .comment-reactions-options .btn-link,
+/* "Add topics" and "Manage topics" links on own repo */
+.great-again .btn-link.js-repo-topics-form-toggle,
 .great-again .js-plan-choice-label a,
 .great-again .js-repo-filter h3 a,
 .great-again .markdown-body a:not(.user-mention):not(.team-mention),
