@@ -19,6 +19,8 @@
 .great-again .comment-reactions-options .btn-link,
 /* "Add topics" and "Manage topics" links on own repo */
 .great-again .btn-link.js-repo-topics-form-toggle,
+/* The link that offers to attach files by "selecting them" below the comment box */
+.great-again .btn-link.manual-file-chooser-text,
 .great-again .js-plan-choice-label a,
 .great-again .js-repo-filter h3 a,
 .great-again .markdown-body a:not(.user-mention):not(.team-mention),
