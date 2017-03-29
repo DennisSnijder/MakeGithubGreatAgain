@@ -233,10 +233,15 @@ a {
 }
 
 /* File listings */
-/* Folder icons used to have the same color as the links */
+/* Folder icons */
 .great-again table.files td.icon .octicon-file-directory,
 .great-again table.files td.icon .octicon-file-submodule {
-    color: #4078c0;
+    /* For some reason I thought they used to have the same color as the links. */
+    /* color: #4078c0; */
+    /* But my old CSS file says this, which looks more familiar. */
+    color: #80a6cd;
+    /* I think this color was used temporarily by GitHub */
+    /* color: #b3c9e1; */
 }
 /* Text (last commit message, and age).  The new design has made these darker (#6a737d) */
 .great-again table.files td.message a,
