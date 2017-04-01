@@ -1,0 +1,86 @@
+/* main font */
+body.great-again,
+.great-again .markdown-body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    /* font-size: 14px; line-height: 1.5; color: #24292e; background-color: #fff; */
+}
+
+/* monospace font styles from frameworks.css 2017/01/01 */
+.great-again code,
+.great-again kbd,
+.great-again pre,
+.great-again samp {
+    font-family: monospace, monospace;
+}
+.great-again tt,
+.great-again code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.great-again pre {
+    font: 12px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace
+}
+.great-again .CodeMirror,
+.great-again .CodeMirror-dialog input,
+.great-again .file-editor-textarea,
+.great-again .input-monospace {
+    font-family: monospace, monospace;
+}
+.great-again .cm-s-github .CodeMirror-lines {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+/* monospace font styles from github.css 2017/01/01 */
+.great-again .branch-name {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.great-again .commit-ref {
+    font: 0.75em/2 Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.great-again .commit .sha-block,
+.great-again .commit .sha {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.great-again .commit-desc pre {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.great-again .commit-tease-sha {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.great-again .blob-num {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.great-again .blob-code-inner {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.great-again .gollum-editor .gollum-editor-body {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.great-again .gollum-editor .expanded textarea {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.great-again .gollum-dialog-dialog-body fieldset .code {
+    font-family: Monaco, "Courier New", Courier, monospace;
+}
+.great-again kbd {
+    font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.great-again .credit-card .cvv {
+    font-family: monospace;
+}
+.great-again .credit-card .text {
+    font-family: monospace;
+}
+.great-again .default-label .sha {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+/* monospace font styles from site.css 2017/01/01 */
+.great-again .alt-mono-font {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.great-again .pullquote {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.great-again .casestudy-body blockquote {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}

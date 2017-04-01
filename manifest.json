@@ -33,7 +33,8 @@
       "css": [
         "src/header.css",
         "src/links.css",
-        "src/save-the-colors.css"
+        "src/save-the-colors.css",
+        "src/fonts.css"
       ],
       "run_at": "document_start"
     }
