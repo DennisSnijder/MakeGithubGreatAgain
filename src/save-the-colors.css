@@ -1,3 +1,11 @@
+/* black */
+body.great-again {
+    /* Original 2016 style: */
+    color: #333;
+    /* New 2017 style: */
+    /* color: #24292e; */
+}
+
 /* red */
 .great-again .state-closed,
 .great-again .block-diff-deleted,
@@ -102,7 +110,7 @@ a {
     background-color: #4078c0 !important;
 }
 .great-again .select-menu-item-parent.select-menu-item.navigation-focus {
-    color: #24292e !important;
+    color: #333 !important;
     background-color: #f1f8ff !important;
     /* Is that right? #f1f8ff is used in some parts of the new theme to replace #f2f9fc in the old. */
     /* Using that in time time being.  Until I find out where on the site .select-menu-item-parent is actually used! */
@@ -140,7 +148,7 @@ a {
     /* We could turn the links blue on hover, consistent with e.g. Forks and Stars links, but it isn't so pretty. */
     /* color: #4078c0; */
     /* This makes the hovered links darker, consistent with the nav links. */
-    color: #24292e;
+    color: #333;
 }
 /* Currently selected tab on /releases page: "Releases | Tags", or on /network page: "Contributors | Commits | Code frequency | ..." */
 .great-again .subnav-item.selected,
@@ -223,7 +231,7 @@ a {
 
 /* The new active tab highlight stripe. There was no old colour, so I just lightened it. */
 .great-again .reponav-item.selected {
-    color: #24292e;
+    color: #333;
     background-color: #fff;
     border-color: #e09a6a #e1e4e8 transparent;
 }
