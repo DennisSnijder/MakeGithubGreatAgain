@@ -209,6 +209,8 @@ a {
     color: #6e5494;
 }
 
+/* and various others... */
+
 /* The blueish box that displays the latest commit */
 .great-again .commit-tease {
     color: #68777d;
@@ -229,11 +231,11 @@ a {
     background-color: #fafafa;
 }
 
-/* The new active tab highlight stripe. There was no old colour, so I just lightened it. */
+/* The orange stripe on the active tab */
 .great-again .reponav-item.selected {
     color: #333;
     background-color: #fff;
-    border-color: #e09a6a #e1e4e8 transparent;
+    border-color: #d26911 #e1e4e8 transparent;
 }
 /* Active tab underline on user profile page */
 .great-again .underline-nav-item.selected {
