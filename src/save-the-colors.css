@@ -239,6 +239,9 @@ a {
 }
 
 /* The orange stripe on the active tab */
+/* on the home page */
+.great-again .pagehead-tabs-item.selected,
+/* on repo pages */
 .great-again .reponav-item.selected {
     color: #333;
     background-color: #fff;
