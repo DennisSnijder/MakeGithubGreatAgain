@@ -1,5 +1,5 @@
 #Make GitHub Great Again!
-Get your old GitHub back. Remove the new dark topbar and hide those garish Blue links!
+Get your old GitHub back. Remove the new dark topbar, hide those garish blue links and restore all the original colors!
 
 ![alt screenshot](assets/example.gif)
 
