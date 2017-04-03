@@ -184,17 +184,24 @@ a {
 /* The "5 Open 12 Closed" at the top of the Issues page */
 .great-again .table-list-header-toggle .btn-link,
 .great-again .notification-actions .btn-link,
-/* The emotion/reaction button in the header of issue/PR comments */
+/* The edit button in the header of issue/PR comments */
+.great-again .timeline-comment-header,
+/* The emotion/reaction button in the header of issue/PR comments (overrides one of our rules in links.css) */
 .great-again .timeline-comment-actions .btn-link,
-.great-again .tabnav-tab,
+/* The buttons in the header of the comment editor */
+.great-again .toolbar-item,
+.great-again .toolbar-item .menu-target,
 .great-again .muted-link {
-    color: #586069 !important;
+    color: #767676 !important;
+}
+.great-again .tabnav-tab {
+    color: #666;
 }
 
 /* The repo description at the top of the repo home page */
 .great-again .repository-meta,
 .great-again .repository-meta .text-gray-dark {
-    color: #666 !important;
+    color: #333 !important;
 }
 
 /* red, green and purple in issues/PRs */
