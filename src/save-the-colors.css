@@ -42,6 +42,19 @@ body.great-again {
 .great-again .btn-primary:hover {
     background-position: 0;
 }
+/* The "Review changes" button goes flat when it is pressed down but not hovered */
+.great-again .btn-primary:active,
+.great-again .btn-primary.selected,
+.great-again .btn-primary.zeroclipboard-is-active {
+    background-color: #4b912c;
+    background-image: none;
+    border-color: #417e26;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15)
+}
+.great-again .btn-primary.selected:hover {
+    background-color: #417e26
+}
+/* --- */
 .great-again .text-green {
     color: #6cc644 !important;
 }
