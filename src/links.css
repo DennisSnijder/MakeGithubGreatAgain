@@ -21,6 +21,12 @@
 .great-again .btn-link.js-repo-topics-form-toggle,
 /* The link that offers to attach files by "selecting them" below the comment box */
 .great-again .btn-link.manual-file-chooser-text,
+/* The "open this in GitHub Desktop" link next to the "Merge pull request" button */
+.great-again .merge-message .alt-merge-options a,
+/* The "command line instructions" link next to the "Merge pull request" button */
+.great-again .merge-message .alt-merge-options .js-details-target.btn-link,
+/* The "Show all reviewers" link in the "Review requested" box of an open PR (only if a review has been requested) */
+.great-again .branch-action-item .js-details-target.btn-link,
 .great-again .js-plan-choice-label a,
 .great-again .js-repo-filter h3 a,
 .great-again .markdown-body a:not(.user-mention):not(.team-mention),
@@ -88,4 +94,10 @@
 /* Hovered circles on the /graphs/punch-card page */
 .great-again circle.day:hover {
     fill: #4078c0;
+}
+
+/* On the right of PR page there is a list of suggested reviewers on the right-hand side. */
+/* When hovered, this selector is applied: .link-gray:hover ... !important */
+.great-again .js-issue-sidebar-form .link-gray:hover {
+    color: #4078c0 !important;
 }
