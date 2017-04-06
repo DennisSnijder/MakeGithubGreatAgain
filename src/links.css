@@ -5,6 +5,8 @@
 .great-again .ajax-pagination-form a,
 .great-again .alert a,
 .great-again .blankslate a,
+/* The path above the file listing when you are browsing a subfolder */
+.great-again .breadcrumb a,
 .great-again .contrib-footer a,
 .great-again .form-group a,
 /* The "compare across forks" link on /compare page */
