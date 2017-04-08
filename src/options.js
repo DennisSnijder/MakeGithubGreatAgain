@@ -3,11 +3,13 @@ function save_options() {
   var enabled = document.getElementById('enabled').checked;
   var originalHeader = document.getElementById('original-header').checked;
   var shortHeader = document.getElementById('short-header').checked;
+  var shortSearchBox = document.getElementById('short-search-box').checked;
   var originalColors = document.getElementById('original-colors').checked;
   chrome.storage.sync.set({
     enabled: enabled,
     originalHeader: originalHeader,
     shortHeader: shortHeader,
+    shortSearchBox: shortSearchBox,
     originalColors: originalColors,
   }, function() {
     // Update status to let user know options were saved.
@@ -33,11 +35,13 @@ function restore_options() {
     enabled: true,
     originalHeader: true,
     shortHeader: true,
+    shortSearchBox: true,
     originalColors: true,
   }, function(items) {
     document.getElementById('enabled').checked = items.enabled;
     document.getElementById('original-header').checked = items.originalHeader;
     document.getElementById('short-header').checked = items.shortHeader;
+    document.getElementById('short-search-box').checked = items.shortSearchBox
     document.getElementById('original-colors').checked = items.originalColors;
   });
 }

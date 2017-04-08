@@ -141,14 +141,15 @@
 .short-header .header-logo-invertocat .octicon-mark-github {
     padding: 2px;
 }
+
 /* The search box was also less tall */
-.short-header.header .header-search {
+.short-search-box.header .header-search {
     margin-top: 1px;
 }
-.short-header.header .header-search-scope {
+.short-search-box.header .header-search-scope {
     line-height: 26px;
 }
-.short-header.header .header-search-wrapper,
-.short-header.header .header-search-input {
+.short-search-box.header .header-search-wrapper,
+.short-search-box.header .header-search-input {
     min-height: 26px;
 }
