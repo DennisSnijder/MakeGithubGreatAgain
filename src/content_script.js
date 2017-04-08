@@ -39,12 +39,8 @@ function setClasses () {
         shortHeader: true,
         originalColors: true,
     }, function (items) {
-        console.log("[content_script.js] (items.enabled):", (items.enabled));
         clearClasses();
         if (items.enabled) {
-            console.log("[content_script.js] items.originalHeader:", items.originalHeader);
-            console.log("[content_script.js] items.shortHeader:", items.shortHeader);
-            console.log("[content_script.js] items.originalColors:", items.originalColors);
             if (items.originalHeader && headerBar) {
                 headerBar.classList.remove('header-dark');
                 headerBar.classList.add('great-header');
