@@ -18,9 +18,9 @@ function initOnce () {
 document.addEventListener('DOMNodeInserted', initOnce);
 document.addEventListener('DOMContentLoaded', initOnce);
 
-// listen for messages from the background script to toggle
+// listen for messages from the background script to update
 chrome.runtime.onMessage.addListener(function (message, sender, callback) {
-    if (message === 'toggle_style') {
+    if (message === 'apply_style') {
         setClasses();
     }
 });
