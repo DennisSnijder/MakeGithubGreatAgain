@@ -3,8 +3,11 @@
 <head>
   <title>Make Github Great Again Options</title>
   <style>
-    body > div {
+    body div {
       margin: 15px 10px;
+    }
+    .disabled {
+      opacity: 0.5;
     }
   </style>
 </head>
@@ -13,36 +16,40 @@
   <div>
     <label>
       <input type="checkbox" id="enabled">
-      Enabled
+      <text>Enabled</text>
     </label>
   </div>
 
-  <div>
-    <label>
-      <input type="checkbox" id="original-header">
-      Original header color (white not black)
-    </label>
-  </div>
+  <div style="border: 1px solid #eee; border-radius: 3px">
 
-  <div>
-    <label>
-      <input type="checkbox" id="short-header">
-      Original header size (slightly shorter)
-    </label>
-  </div>
+    <div>
+      <label>
+        <input type="checkbox" id="original-header">
+        <text>Original header color (gray not black)</text>
+      </label>
+    </div>
 
-  <div>
-    <label>
-      <input type="checkbox" id="short-search-box">
-      Original search box size (slightly shorter)
-    </label>
-  </div>
+    <div>
+      <label>
+        <input type="checkbox" id="short-header">
+        <text>Original header size (slightly shorter)</text>
+      </label>
+    </div>
 
-  <div>
-    <label>
-      <input type="checkbox" id="original-colors">
-      Original colors (blue links, greens, purples...)
-    </label>
+    <div>
+      <label>
+        <input type="checkbox" id="short-search-box">
+        <text>Original search box size (slightly shorter)</text>
+      </label>
+    </div>
+
+    <div>
+      <label>
+        <input type="checkbox" id="original-colors">
+        <text>Original colors (blue links, greens, purples...)</text>
+      </label>
+    </div>
+
   </div>
 
   <div>

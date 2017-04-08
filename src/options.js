@@ -1,3 +1,7 @@
+function init () {
+    restore_options();
+}
+
 // Saves options to chrome.storage.sync.
 function save_options () {
     var enabled = document.getElementById('enabled').checked;
@@ -44,8 +48,20 @@ function restore_options () {
         document.getElementById('short-header').checked = items.shortHeader;
         document.getElementById('short-search-box').checked = items.shortSearchBox
         document.getElementById('original-colors').checked = items.originalColors;
+        updateView();
     });
 }
 
-document.addEventListener('DOMContentLoaded', restore_options);
+function updateView () {
+    var disabled = !document.getElementById('enabled').checked;
+    for (var input of document.querySelectorAll('input')) {
+        if (input.id !== 'enabled') {
+            input.disabled = disabled;
+            input.parentNode.classList.toggle('disabled', disabled);
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', init);
 document.getElementById('save').addEventListener('click', save_options);
+document.getElementById('enabled').addEventListener('change', updateView);
