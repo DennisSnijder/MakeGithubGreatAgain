@@ -234,6 +234,9 @@ a {
 .great-again .merged.octicon {
     color: #6e5494;
 }
+.great-again .completeness-indicator-error {
+    background-color: #bd2c00;
+}
 
 /* and various others... */
 
