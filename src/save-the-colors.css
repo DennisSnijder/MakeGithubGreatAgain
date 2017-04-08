@@ -210,6 +210,12 @@ a {
 .great-again .tabnav-tab {
     color: #666;
 }
+/* The grey icon when a PR is blocked */
+.great-again .branch-action-state-dirty .branch-action-icon,
+.great-again .branch-action-state-closed-dirty .branch-action-icon,
+.great-again .is-rebasing .branch-action-state-dirty-if-rebasing .branch-action-icon {
+    background-color: #888;
+}
 
 /* The repo description at the top of the repo home page */
 .great-again .repository-meta,
