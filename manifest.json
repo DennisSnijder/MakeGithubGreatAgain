@@ -38,5 +38,9 @@
       ],
       "run_at": "document_start"
     }
-  ]
+  ],
+  "options_ui": {
+    "page": "src/options.html",
+    "chrome_style": true
+  }
 }
