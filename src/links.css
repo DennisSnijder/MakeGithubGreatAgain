@@ -29,6 +29,10 @@
 .great-again .merge-message .alt-merge-options .js-details-target.btn-link,
 /* The "Show all reviewers" link in the "Review requested" box of an open PR (only if a review has been requested) */
 .great-again .branch-action-item .js-details-target.btn-link,
+/* The "Add your review" link that appears in the "Review required" box.  (Probably matches some other links too.) */
+.great-again .branch-action-item a.btn-link,
+/* The "Details" links under "All checks have passed" */
+.great-again .branch-action-item a.status-actions,
 .great-again .js-plan-choice-label a,
 .great-again .js-repo-filter h3 a,
 .great-again .markdown-body a:not(.user-mention):not(.team-mention),
