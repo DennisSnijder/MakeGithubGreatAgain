@@ -133,11 +133,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-/* The text was smaller */
-.short-header .header-nav-link {
-    font-size: 13px;
-}
-/* And the logo was smaller */
+/* The logo was smaller */
 .short-header .header-logo-invertocat .octicon-mark-github {
     padding: 2px;
 }
@@ -152,4 +148,8 @@
 .short-search-box.header .header-search-wrapper,
 .short-search-box.header .header-search-input {
     min-height: 26px;
+}
+/* The text to the right of the search box*/
+.short-search-box .header-nav-link {
+    font-size: 13px;
 }
