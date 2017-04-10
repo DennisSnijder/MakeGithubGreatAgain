@@ -185,6 +185,14 @@ a {
 .great-again .commit-ref .user {
     color: #598a9f;
 }
+/* When viewing a commit, this is the title box (more turquoise, less blue) */
+.great-again .full-commit {
+    background: #e6f1f6;
+    border: 1px solid #c5d5dd;
+}
+.great-again .full-commit p.commit-title {
+    color: #213f4d;
+}
 
 /* purple */
 .great-again .state-merged,
