@@ -209,6 +209,19 @@ a {
 .great-again .label-select-menu .navigation-focus {
     background-color: #f4f4f4 !important;
 }
+/* The expander bar in diffs */
+.great-again .blob-code-hunk,
+.great-again .blob-code-expandable {
+    background-color: #f4f7fb;
+}
+.great-again .blob-num-hunk,
+.great-again .blob-num-expandable {
+    background-color: #edf2f9;
+}
+.great-again .blob-expanded .blob-num,
+.great-again .blob-expanded .blob-code {
+    background-color: #fafafa;
+}
 
 /* grey */
 /* The "5 Open 12 Closed" at the top of the Issues page */
