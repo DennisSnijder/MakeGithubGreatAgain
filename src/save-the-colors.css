@@ -204,6 +204,15 @@ a {
 .great-again .discussion-item-merged .discussion-item-icon {
     background-color: #6e5494 !important;
 }
+.great-again .branch-action-state-merged .branch-action-icon {
+    background-color: #6e5494;
+}
+.great-again .branch-action-state-merged .branch-action-body {
+    border-color: #cbc0db;
+}
+.great-again .branch-action-state-merged .branch-action-body::before {
+    border-right-color: #cbc0db;
+}
 
 /* white */
 .great-again .add-line-comment,
