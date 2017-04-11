@@ -193,6 +193,11 @@ a {
 .great-again .full-commit p.commit-title {
     color: #213f4d;
 }
+/* Similar (but more gray) when viewing a pull request */
+.great-again .timeline-comment.current-user .timeline-comment-header {
+    background-color: #f2f8fa;
+    border-bottom-color: #bfccd1;
+}
 
 /* purple */
 .great-again .state-merged,
@@ -246,11 +251,27 @@ a {
 .great-again .is-rebasing .branch-action-state-dirty-if-rebasing .branch-action-icon {
     background-color: #888;
 }
-
 /* The repo description at the top of the repo home page */
 .great-again .repository-meta,
 .great-again .repository-meta .text-gray-dark {
     color: #333 !important;
+}
+/* The number shown in PR title */
+.great-again .gh-header-number {
+    color: #aaa;
+}
+/* The icon next to "[username] added some commits [when] ago" on PR page */
+.great-again .discussion-item-icon {
+    color: #767676;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+/* Grey commit messages and hashes, e.g. on PR page */
+.great-again .timeline-commits .commit-message>code a {
+    color: #555;
+}
+.great-again .commit-id {
+    color: #bbb
 }
 
 /* red, green and purple in issues/PRs */
