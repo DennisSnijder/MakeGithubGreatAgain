@@ -198,6 +198,24 @@ a {
     background-color: #f2f8fa;
     border-bottom-color: #bfccd1;
 }
+/* The box that contains the big green "Merge pull request" button */
+.great-again .branch-action-body .merge-message,
+.great-again .branch-action-body .merge-branch-form {
+    background-color: #fafafa;
+    border-top: solid 1px #e5e5e5;
+}
+/* The header of the comment box on a PR page */
+.great-again .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
+    background: #f7f7f7;
+}
+/* The comment box text area */
+.great-again .input-contrast {
+    background: #fafafa;
+}
+/* and the upload message below it */
+.great-again .drag-and-drop {
+    background: #fafafa;
+}
 
 /* purple */
 .great-again .state-merged,
