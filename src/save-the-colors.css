@@ -342,3 +342,23 @@ a {
 .network .current-repository {
     background-color: #fff6a9;
 }
+
+/* Commit messages on the /commits page (now #444d56) */
+.great-again .commit .commit-title,
+.great-again .commit .commit-title a {
+    color: #4e575b;
+}
+/* and the author and date info that appears below each message */
+.great-again .commit-author-section {
+    color: #333;
+}
+.great-again .commits-list-item .commit-meta {
+    color: #767676;
+}
+.great-again .commits-list-item .commit-author {
+    color: #767676;
+}
+/* The commit under the mouse */
+.great-again .commits-list-item.navigation-focus {
+    background: #f7fbfc;
+}
