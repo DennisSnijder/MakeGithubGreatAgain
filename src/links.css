@@ -79,6 +79,8 @@
 .great-again .network .repo a,
 /* Links to members on the /org/.../people page */
 .great-again .member-info a,
+/* The link above a new issue to "the guidelines", for repos which have them */
+.great-again .contributing a,
 /* Links to Wiki pages */
 .great-again a.wiki-page-link {
     color: #4078c0;
