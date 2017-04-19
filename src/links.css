@@ -120,3 +120,16 @@
 .great-again .js-issue-sidebar-form .link-gray:hover {
     color: #4078c0 !important;
 }
+
+/* For gist.github.com */
+.great-again .byline .creator a,
+.great-again .byline .description a,
+.great-again .file-header .file-info a {
+    color: #4078c0;
+}
+.great-again .gist-snippet .link-overlay .link {
+    background-color: #4078c0;
+}
+.great-again .gist-snippet .file-box:hover .file {
+    border-color: #4078c0;
+}
