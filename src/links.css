@@ -101,6 +101,15 @@
     color: #24292e;
 }
 
+/* Hovered link to reset search on an /issues?q=... page */
+.great-again .issues-reset-query:hover {
+    color: #4078c0;
+}
+/* and the big X button next to it */
+.great-again .issues-reset-query:hover .issues-reset-query-icon {
+    background-color: #4078c0;
+}
+
 /* Hovered circles on the /graphs/punch-card page */
 .great-again circle.day:hover {
     fill: #4078c0;
