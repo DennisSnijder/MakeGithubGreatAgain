@@ -19,6 +19,9 @@ body.great-again {
 .great-again .btn-danger {
     color: #bd2c00 !important;
 }
+.great-again .State--red {
+    background-color: #bd2c00;
+}
 
 /* green */
 .great-again .bg-green,
@@ -76,6 +79,9 @@ body.great-again {
 }
 .great-again .branch-action-state-clean .branch-action-body {
     border-color: #95c97e !important;
+}
+.great-again .State--green {
+    background-color: #6cc644;
 }
 
 /* blue */
@@ -230,6 +236,10 @@ a {
 }
 .great-again .branch-action-state-merged .branch-action-body::before {
     border-right-color: #cbc0db;
+}
+/* These classes appear on buttons at the top of a PR page (also commit pages within PRs) */
+.great-again .State--purple {
+    background-color: #6e5494;
 }
 
 /* white */
