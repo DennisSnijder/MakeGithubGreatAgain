@@ -31,6 +31,8 @@
 .great-again .branch-action-item .js-details-target.btn-link,
 /* The "Add your review" link that appears in the "Review required" box.  (Probably matches some other links too.) */
 .great-again .branch-action-item a.btn-link,
+/* The "Approve changes" link in a "Changes requested" box */
+.great-again .branch-action-item button.btn-link,
 /* The "Details" links under "All checks have passed" */
 .great-again .branch-action-item a.status-actions,
 .great-again .js-plan-choice-label a,
