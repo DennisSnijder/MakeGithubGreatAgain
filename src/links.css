@@ -9,6 +9,8 @@
 .great-again .breadcrumb a,
 .great-again .contrib-footer a,
 .great-again .form-group a,
+/* The "Cancel" link next to the "Save" button, when editing a PR's title */
+.great-again .gh-header-edit .btn-link,
 /* The "compare across forks" link on /compare page */
 .great-again .gh-header-meta .btn-link,
 /* The "Learn more" link below the comment editor */
