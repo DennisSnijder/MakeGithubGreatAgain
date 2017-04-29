@@ -225,7 +225,8 @@ a {
 
 /* purple */
 .great-again .state-merged,
-.great-again .discussion-item-merged .discussion-item-icon {
+.great-again .discussion-item-merged .discussion-item-icon,
+.great-again .branch-action-state-merged .branch-action-icon {
     background-color: #6e5494 !important;
 }
 .great-again .branch-action-state-merged .branch-action-icon {
