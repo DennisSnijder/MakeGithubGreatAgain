@@ -87,6 +87,8 @@
 .great-again .member-info a,
 /* The link above a new issue to "the guidelines", for repos which have them */
 .great-again .contributing a,
+/* The "Add a bio" link on your profile page /[username] */
+.great-again .vcard-names-container + .mb-3 a,
 /* Links to Wiki pages */
 .great-again a.wiki-page-link {
     color: #4078c0;
