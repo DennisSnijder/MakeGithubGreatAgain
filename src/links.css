@@ -37,6 +37,8 @@
 .great-again .branch-action-item button.btn-link,
 /* The "Details" links under "All checks have passed" */
 .great-again .branch-action-item a.status-actions,
+/* The "See review" link under "XXX requested changes" */
+.great-again .branch-action-item .status-actions a,
 .great-again .js-plan-choice-label a,
 .great-again .js-repo-filter h3 a,
 .great-again .markdown-body a:not(.user-mention):not(.team-mention),
