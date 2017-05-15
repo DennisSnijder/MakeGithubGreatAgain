@@ -46,9 +46,17 @@
 .great-header .header-nav-link {
     color: #555
 }
-.great-header .header-logo-invertocat:hover, .great-header .header-logo-wordmark:hover,
-.great-header .header-nav-link:hover, .great-header .header-nav-link:focus {
+.great-header .header-nav-link:hover,
+.great-header .header-nav-link:focus {
     color: #4078c0
+}
+
+/* The original Github CSS made the logo blue on hover.  The new Github CSS leaves the logo unchanged on hover. */
+/* We will soften the dark grey logo on hover.  This appears more consistent with the light grey logo in the footer. */
+.great-header .header-logo-invertocat:hover,
+.great-header .header-logo-wordmark:hover {
+    color: #333;
+    opacity: 0.8;
 }
 
 .great-header .header-nav-link:hover .dropdown-caret, .great-header .header-nav-link:focus .dropdown-caret {
