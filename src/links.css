@@ -44,6 +44,8 @@
 .great-again .markdown-body a:not(.user-mention):not(.team-mention),
 .great-again .menu a,
 .great-again .meta-search-links a,
+/* The "Load diff" link text when "Large diffs are not rendered by default" */
+.great-again .btn-link.load-diff-button,
 /* Links inside the change summary of a submodule in diff view */
 .great-again .js-file-content .data.highlight.empty a,
 /* The link "Only those with write access" on open PR of other projects */
