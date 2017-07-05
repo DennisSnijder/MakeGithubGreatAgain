@@ -1,0 +1,149 @@
+/* Links */
+
+.great-again #issues a,
+.great-again #pull-requests a,
+.great-again .ajax-pagination-form a,
+.great-again .alert a,
+.great-again .blankslate a:not(.btn-primary),
+/* The path above the file listing when you are browsing a subfolder */
+.great-again .breadcrumb a,
+.great-again .contrib-footer a,
+.great-again .form-group a,
+/* The "Cancel" link next to the "Save" button, when editing a PR's title */
+.great-again .gh-header-edit .btn-link,
+/* The "compare across forks" link on /compare page */
+.great-again .gh-header-meta .btn-link,
+/* The "Learn more" link below the comment editor */
+.great-again .timeline-comment .js-menu-container .btn-link,
+/* The "Learn more" link below "Allow edits from maintainers" to the right of a PR */
+.great-again .btn-link.fork-collab-link,
+/* "Showing 14 changes files" on /compare/...?expand=1 */
+.great-again .toc-diff-stats .btn-link,
+/* Numbers next to reaction counts, e.g. on issue pages */
+.great-again .comment-reactions-options .btn-link,
+/* The "Cancel" link when editing own repo description */
+.great-again .btn-link.js-edit-repo-meta-toggle,
+/* "Add topics" and "Manage topics" links on own repo */
+.great-again .btn-link.js-repo-topics-form-toggle,
+/* The link that offers to attach files by "selecting them" below the comment box */
+.great-again .btn-link.manual-file-chooser-text,
+/* The "open this in GitHub Desktop" link next to the "Merge pull request" button */
+.great-again .merge-message .alt-merge-options a,
+/* The "command line instructions" link next to the "Merge pull request" button */
+.great-again .merge-message .alt-merge-options .js-details-target.btn-link,
+/* The "Show all reviewers" link in the "Review requested" box of an open PR (only if a review has been requested) */
+.great-again .branch-action-item .js-details-target.btn-link,
+/* The "Add your review" link that appears in the "Review required" box.  (Probably matches some other links too.) */
+.great-again .branch-action-item a.btn-link,
+/* The "Approve changes" link in a "Changes requested" box */
+.great-again .branch-action-item button.btn-link,
+/* The "Details" links under "All checks have passed" */
+.great-again .branch-action-item a.status-actions,
+/* The "See review" link under "XXX requested changes" */
+.great-again .branch-action-item .status-actions a,
+.great-again .js-plan-choice-label a,
+.great-again .js-repo-filter h3 a,
+.great-again .markdown-body a:not(.user-mention):not(.team-mention),
+.great-again .menu a,
+.great-again .meta-search-links a,
+/* The "Load diff" link text when "Large diffs are not rendered by default" */
+.great-again .btn-link.load-diff-button,
+/* Links inside the change summary of a submodule in diff view */
+.great-again .js-file-content .data.highlight.empty a,
+/* The link "Only those with write access" on open PR of other projects */
+.great-again .status-meta a,
+.great-again .mini-repo-list a,
+.great-again .more-repos a,
+.great-again .more-repos-link a,
+.great-again .news .text-center a,
+.great-again .numbers-summary a:hover,
+.great-again .pagination a,
+.great-again .pinned-repo-item-content .d-block a,
+.great-again .profile-rollup-content>li>div>a:first-child,
+.great-again .profile-rollup-content>li>span>a,
+.great-again .protip a,
+.great-again .repo-list a,
+.great-again .repohead-details-container>h1 a,
+.great-again .repository-meta-content a,
+.great-again .site-footer a,
+.great-again .tos-info a,
+.great-again .vcard-details a,
+.great-again a.aname,
+.great-again a.link-gray-dark:hover,
+.great-again a.muted-link:hover,
+.great-again table.files td.message a:hover,
+.great-again td.content a,
+.great-again ul.simple-conversation-list.varied-states a,
+/* "[n] more notifications in [user]/[repo]" link on the /notifications page */
+.great-again .notifications .notifications-more > a,
+/* Link to issue or PR from a commit or merge message on the /commits page*/
+.great-again .commit .commit-title .issue-link,
+/* Link to issue from commit-tease on front-page */
+.great-again .commit-tease a.issue-link,
+/* PR id in PR page */
+.great-again .gh-header-title .js-issue-title a,
+/* Titles and download links on the /releases page */
+.great-again .release-title a,
+.great-again .release-downloads a,
+/* Link to content on the /graphs/traffic page */
+.great-again .repository-content .capped-list-label a,
+/* Links to members on the the /network/members page */
+.great-again .network .repo a,
+/* Links to members on the /org/.../people page */
+.great-again .member-info a,
+/* The link above a new issue to "the guidelines", for repos which have them */
+.great-again .contributing a,
+/* The "Add a bio" link on your profile page /[username] */
+.great-again .vcard-names-container + .mb-3 a,
+/* Links to Wiki pages */
+.great-again a.wiki-page-link {
+    color: #4078c0;
+}
+
+.great-again .ajax-pagination-form .ajax-pagination-btn,
+.great-again .btn-invisible,
+.great-again .btn-outline,
+.great-again .member-badge,
+.great-again .page-new-repo .license-info,
+.great-again button.muted-link:hover,
+.great-again .discussion-sidebar-toggle:hover {
+    color: #4078c0;
+}
+
+/* We accidentally overrode this above */
+.great-again .menu-item.selected {
+    color: #24292e;
+}
+
+/* Hovered link to reset search on an /issues?q=... page */
+.great-again .issues-reset-query:hover {
+    color: #4078c0;
+}
+/* and the big X button next to it */
+.great-again .issues-reset-query:hover .issues-reset-query-icon {
+    background-color: #4078c0;
+}
+
+/* Hovered circles on the /graphs/punch-card page */
+.great-again circle.day:hover {
+    fill: #4078c0;
+}
+
+/* On the right of PR page there is a list of suggested reviewers on the right-hand side. */
+/* When hovered, this selector is applied: .link-gray:hover ... !important */
+.great-again .js-issue-sidebar-form .link-gray:hover {
+    color: #4078c0 !important;
+}
+
+/* For gist.github.com */
+.great-again .byline .creator a,
+.great-again .byline .description a,
+.great-again .file-header .file-info a {
+    color: #4078c0;
+}
+.great-again .gist-snippet .link-overlay .link {
+    background-color: #4078c0;
+}
+.great-again .gist-snippet .file-box:hover .file {
+    border-color: #4078c0;
+}

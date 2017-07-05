@@ -31,9 +31,16 @@
         "src/content_script.js"
       ],
       "css": [
-        "src/header.css"
+        "src/header.css",
+        "src/links.css",
+        "src/save-the-colors.css",
+        "src/fonts.css"
       ],
       "run_at": "document_start"
     }
-  ]
+  ],
+  "options_ui": {
+    "page": "src/options.html",
+    "chrome_style": true
+  }
 }

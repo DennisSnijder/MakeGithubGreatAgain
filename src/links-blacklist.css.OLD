@@ -1,0 +1,23 @@
+/* Links */
+
+.great-again [role=main] a:not(.btn):not(.social-count):not(.reponav-item):not(.message):not(.commit-author):not(.user-mention):not(.commit-tease-sha):not(.issues-reset-query):not(.subnav-item):not(.author):not(.timestamp):not(.selected):not(.text-emphasized):not(.commit-id):not(.lock-toggle-link):not(.commit-link):not(.diff-expander):not(.issue-link):not(.milestone-name):not(.discussion-item-entity):not(.assignee),
+.great-again .btn-outline {
+    color: #4078c0;
+}
+
+/* This is the "125 commits, 1 branch, 28 releases, ..." above the file listing on each repo home page. */
+/* The rule above accidentally styles these, but the new theme changed it too, so either way we need to redefine it. */
+/* (There are actually a few minor color changes in the <svg> and .text-emphasized, but I didn't bother to restore them.) */
+/* We use !important because the rule above is too specific to override easily! */
+.great-again .numbers-summary a {
+    color: #767676 !important;
+}
+
+/* Our link styling above will break the hovered branch in the "Switch branches/tags" dropdown. */
+/* Again we need !important because the above rule is difficult to override. */
+.great-again .select-menu-item.navigation-focus,
+.great-again .select-menu-item.navigation-focus.selected,
+.great-again .select-menu-item.navigation-focus.select-menu-action,
+.great-again .select-menu-item.navigation-focus .description-inline {
+    color: #fff !important;
+}

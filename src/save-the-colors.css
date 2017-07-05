@@ -1,0 +1,423 @@
+/* black */
+body.great-again {
+    /* Original 2016 style: */
+    color: #333;
+    /* New 2017 style: */
+    /* color: #24292e; */
+}
+
+/* red */
+.great-again .state-closed,
+.great-again .block-diff-deleted,
+.great-again .discussion-item-closed .discussion-item-icon {
+    background-color: #bd2c00 !important;
+}
+.great-again .btn-danger:hover {
+    background-image: linear-gradient(#ec5757, #c71616) !important;
+}
+.great-again .text-red,
+.great-again .btn-danger {
+    color: #bd2c00 !important;
+}
+.great-again .State--red {
+    background-color: #bd2c00;
+}
+
+/* green */
+.great-again .bg-green,
+.great-again .state-open,
+.great-again .completeness-indicator-success,
+.great-again .branch-action-state-clean .branch-action-icon,
+.great-again .discussion-item-reopened .discussion-item-icon {
+    background-color: #6cc644 !important;
+}
+.great-again .block-diff-added {
+    background-color: #55a532 !important;
+}
+.great-again .btn-primary {
+    background-image: linear-gradient(#91dd70, #55ae2e);
+}
+.great-again .btn-primary:hover {
+    background-image: linear-gradient(#79d858, #569e3d);
+    border-color: #4a993e;
+}
+/* Without this, when we hover over submit buttons, they get an ugly bar across the bottom */
+.great-again .btn-primary:hover {
+    background-position: 0;
+}
+/* The "Review changes" button goes flat when it is pressed down but not hovered */
+.great-again .btn-primary:active,
+.great-again .btn-primary.selected,
+.great-again .btn-primary.zeroclipboard-is-active {
+    background-color: #4b912c;
+    background-image: none;
+    border-color: #417e26;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15)
+}
+.great-again .btn-primary.selected:hover {
+    background-color: #417e26
+}
+/* --- */
+.great-again .text-green {
+    color: #6cc644 !important;
+}
+/* Coloured labels on the left of the Releases page */
+.great-again .release-label.latest {
+    background-color: #6cc644;
+    border-color: transparent;
+}
+.great-again .release-label.draft {
+    background-color: #bd2c00;
+    border-color: transparent;
+}
+.great-again .release-label.prerelease {
+    background-color: #c9510c;
+    border-color: transparent;
+}
+.great-again .release-label a {
+    color: #fff !important;
+}
+.great-again .branch-action-state-clean .branch-action-body {
+    border-color: #95c97e !important;
+}
+.great-again .State--green {
+    background-color: #6cc644;
+}
+
+/* blue */
+/* This rule gets masked due to our early injection.  Although with late injection it could be quite useful. */
+/* If we add .great-again then it will be toggleable, but it will apply to many links it shouldn't! */
+/* Anyway for now, <a> links are handled in links.css */
+/*
+a {
+    color: #4078c0; --- do not mark important ---
+}
+*/
+/* Styling all .btn-link is too problematic.  We need to select them specifically. */
+/* .great-again .btn-link:not(.lock-toggle-link):not(.tabnav-tab), */
+.great-again .subset-files-tab,
+.great-again .btn-outline,
+.great-again .notification-actions .btn-link:hover,
+.great-again .timeline-comment-action:hover,
+.great-again .discussion-item-help:hover,
+.great-again .link-gray-dark:hover,
+.great-again .toolbar-item:hover,
+.great-again .btn-octicon:hover,
+.great-again .title-link:hover,
+.great-again .muted-link:hover,
+.great-again .commit-id:hover,
+.great-again .tabnav-extra:hover,
+.great-again .social-count:hover,
+.great-again .menu-target:hover,
+.great-again .message:hover,
+.great-again .numbers-summary a:hover,
+.great-again .timeline-comment-action:focus,
+.great-again .menu-target:focus {
+    color: #4078c0 !important;
+}
+.great-again .filter-item.selected,
+.great-again .bg-blue,
+.great-again .select-menu-item.navigation-focus .description-inline,
+.great-again .select-menu-item.navigation-focus,
+.great-again .suggester .navigation-focus,
+.great-again .dropdown-item:hover,
+.great-again .diff-expander:hover,
+.great-again .btn-outline:hover,
+.great-again .timeline-commits .ellipsis-expander:hover,
+.great-again .discussion-item-changes-marker.is-unread .discussion-item-icon,
+.great-again .reaction-sort-item:hover {
+    background-color: #4078c0 !important;
+}
+.great-again .select-menu-item-parent.select-menu-item.navigation-focus {
+    color: #333 !important;
+    background-color: #f1f8ff !important;
+    /* Is that right? #f1f8ff is used in some parts of the new theme to replace #f2f9fc in the old. */
+    /* Using that in time time being.  Until I find out where on the site .select-menu-item-parent is actually used! */
+    background-color: #f2f9fc !important;
+}
+.great-again .add-line-comment {
+    background-image: linear-gradient(#5386c6, #4078c0) !important;
+}
+/* The tags which appear below the repo description: classic blue-on-blue */
+.great-again .topic-tag-link,
+.great-again .repo-list a.topic-tag-link {
+    color: #4078c0;
+    /* background-color: #f1f8ff; */
+    background-color: #f2f9fc;
+}
+.great-again .topic-tag-link:hover,
+.great-again .repo-list a.topic-tag-link:hover {
+    background-color: #ddeeff;
+}
+/* I find the new blue-on-blue tags a bit too colorful, even when I toned them down to the classic colors. */
+/* So here I experimented a bit, and settled on grey-on-grey, which keeps them solid, but reduces their impact. */
+/* The .repo-list rules are needed to override the .repo-list rule for links which appears on /search?q=topic... */
+.great-again .topic-tag-link,
+.great-again .repo-list a.topic-tag-link {
+    /* Dark grey (nav links) on light grey (header background) */
+    background-color: #f5f5f5;
+    color: #586069;
+}
+.great-again .topic-tag-link:hover,
+.great-again .repo-list a.topic-tag-link:hover {
+    /* On hover, the current site design is to darken the background. */
+    background-color: #eaeaea;
+    /* If we don't want that, then we need to reenforce the background we use above. */
+    /* background-color: #f5f5f5; */
+    /* We could turn the links blue on hover, consistent with e.g. Forks and Stars links, but it isn't so pretty. */
+    /* color: #4078c0; */
+    /* This makes the hovered links darker, consistent with the nav links. */
+    color: #333;
+}
+/* Currently selected tab on /releases page: "Releases | Tags", or on /network page: "Contributors | Commits | Code frequency | ..." */
+.great-again .subnav-item.selected,
+.great-again .subnav-item.selected:hover,
+.great-again .subnav-item.selected:focus {
+    background-color: #4078c0;
+    border-color: #4078c0;
+}
+/* Pager on the /orgs/.../people page */
+.great-again .pagination .current,
+.great-again .pagination .current:hover {
+    background-color: #4078c0;
+    border-color: #4078c0;
+}
+/* Commit refs (e.g. "into _ from _" at the top of a PR) used to be darker */
+.great-again .commit-ref {
+    color: #336479;
+    background-color: #e8f0f8;
+}
+/* with the user/organisation name de-emphasised */
+.great-again .commit-ref .user {
+    color: #598a9f;
+}
+/* When viewing a commit, this is the title box (more turquoise, less blue) */
+.great-again .full-commit {
+    background: #e6f1f6;
+    border: 1px solid #c5d5dd;
+}
+.great-again .full-commit p.commit-title {
+    color: #213f4d;
+}
+/* Similar (but more gray) when viewing a pull request */
+.great-again .timeline-comment.current-user .timeline-comment-header {
+    background-color: #f2f8fa;
+    border-bottom-color: #bfccd1;
+}
+/* The box that contains the big green "Merge pull request" button */
+.great-again .branch-action-body .merge-message,
+.great-again .branch-action-body .merge-branch-form {
+    background-color: #fafafa;
+    border-top: solid 1px #e5e5e5;
+}
+/* The header of the comment box on a PR page */
+.great-again .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
+    background: #f7f7f7;
+}
+/* The comment box text area */
+.great-again .input-contrast {
+    background: #fafafa;
+}
+/* and the upload message below it */
+.great-again .drag-and-drop {
+    background: #fafafa;
+}
+
+/* purple */
+.great-again .state-merged,
+.great-again .discussion-item-merged .discussion-item-icon,
+.great-again .branch-action-state-merged .branch-action-icon {
+    background-color: #6e5494 !important;
+}
+.great-again .branch-action-state-merged .branch-action-icon {
+    background-color: #6e5494;
+}
+.great-again .branch-action-state-merged .branch-action-body {
+    border-color: #cbc0db;
+}
+.great-again .branch-action-state-merged .branch-action-body::before {
+    border-right-color: #cbc0db;
+}
+/* These classes appear on buttons at the top of a PR page (also commit pages within PRs) */
+.great-again .State--purple {
+    background-color: #6e5494;
+}
+
+/* white */
+.great-again .add-line-comment,
+.great-again .btn-danger:hover,
+.great-again .btn-outline:hover {
+    color: #fff !important;
+}
+.great-again .label-select-menu .navigation-focus {
+    background-color: #f4f4f4 !important;
+}
+/* The expander bar in diffs */
+.great-again .blob-code-hunk,
+.great-again .blob-code-expandable {
+    background-color: #f4f7fb;
+}
+.great-again .blob-num-hunk,
+.great-again .blob-num-expandable {
+    background-color: #edf2f9;
+}
+.great-again .blob-expanded .blob-num,
+.great-again .blob-expanded .blob-code {
+    background-color: #fafafa;
+}
+
+/* grey */
+/* The "5 Open 12 Closed" at the top of the Issues page */
+.great-again .table-list-header-toggle .btn-link,
+.great-again .notification-actions .btn-link,
+/* The edit button in the header of issue/PR comments */
+.great-again .timeline-comment-header,
+/* The emotion/reaction button in the header of issue/PR comments (overrides one of our rules in links.css) */
+.great-again .timeline-comment-actions .btn-link,
+/* The buttons in the header of the comment editor */
+.great-again .toolbar-item,
+.great-again .toolbar-item .menu-target,
+.great-again .muted-link {
+    color: #767676 !important;
+}
+.great-again .tabnav-tab {
+    color: #666;
+}
+/* The grey icon when a PR is blocked */
+.great-again .branch-action-state-dirty .branch-action-icon,
+.great-again .branch-action-state-closed-dirty .branch-action-icon,
+.great-again .is-rebasing .branch-action-state-dirty-if-rebasing .branch-action-icon {
+    background-color: #888;
+}
+/* The repo description at the top of the repo home page */
+.great-again .repository-meta,
+.great-again .repository-meta .text-gray-dark {
+    color: #333 !important;
+}
+/* The number shown in PR title */
+.great-again .gh-header-number {
+    color: #aaa;
+}
+/* The icon next to "[username] added some commits [when] ago" on PR page */
+.great-again .discussion-item-icon {
+    color: #767676;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+/* Grey commit messages and hashes, e.g. on PR page */
+.great-again .timeline-commits .commit-message>code a {
+    color: #555;
+}
+.great-again .commit-id {
+    color: #bbb
+}
+
+/* red, green and purple in issues/PRs */
+.great-again .closed.octicon,
+.great-again .reverted.octicon {
+    color: #bd2c00;
+}
+.great-again .open.octicon {
+    color: #6cc644;
+}
+.great-again .merged.octicon {
+    color: #6e5494;
+}
+.great-again .completeness-indicator-error {
+    background-color: #bd2c00;
+}
+
+/* and various others... */
+
+/* The blueish box that displays the latest commit */
+.great-again .commit-tease {
+    color: #68777d;
+    background-color: #f2f9fc;
+    border: 1px solid #c9e6f2;
+}
+.commit-tease-contributors {
+    border-top: 1px solid #c9e6f2;
+}
+
+/* Messages which pop up when an errors occurs */
+.great-again .flash {
+    background-color: #f2f9fc;
+}
+
+/* The area below the header is slightly blue in the redesign.  This turns it back to grey. */
+.great-again .repohead.experiment-repo-nav {
+    background-color: #fafafa;
+}
+
+/* The orange stripe on the active tab */
+/* on the home page */
+.great-again .pagehead-tabs-item.selected,
+/* on repo pages */
+.great-again .reponav-item.selected {
+    color: #333;
+    background-color: #fff;
+    border-color: #d26911 #e1e4e8 transparent;
+}
+/* Active tab underline on user profile page */
+.great-again .underline-nav-item.selected {
+    border-bottom-color: #e09a6a;
+}
+
+/* File listings */
+/* Folder icons */
+.great-again table.files td.icon .octicon-file-directory,
+.great-again table.files td.icon .octicon-file-submodule {
+    /* For some reason I thought they used to have the same color as the links. */
+    /* color: #4078c0; */
+    /* But my old CSS file says this, which looks more familiar. */
+    color: #80a6cd;
+    /* I think this color was used temporarily by GitHub */
+    /* color: #b3c9e1; */
+}
+/* Text (last commit message, and age).  The new design has made these darker (#6a737d) */
+.great-again table.files td.message a,
+.great-again table.files td.age {
+    color: #888;
+}
+/* File icons used to be grey but the new theme made them blue for a while, and then a darker grey. */
+.great-again table.files td.icon {
+    color: #767676;
+}
+
+/* Search boxes have a blue border and a fine glow when focused. */
+/* There is one search box in the header, and another on the issues page. */
+.great-again .form-control.focus,
+.great-again .form-control:focus,
+.great-again .form-select.focus,
+.great-again .form-select:focus {
+    border-color: #51a7e8;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset, 0 0 5px rgba(81, 167, 232, 0.5) !important;
+    outline: medium none;
+}
+
+/* yellow */
+/* As seen here: https://github.com/ssbc/patchwork/network/members */
+/* This is probably the new color, and we will need to dig up the old one. */
+.network .current-repository {
+    background-color: #fff6a9;
+}
+
+/* Commit messages on the /commits page (now #444d56) */
+.great-again .commit .commit-title,
+.great-again .commit .commit-title a {
+    color: #4e575b;
+}
+/* and the author and date info that appears below each message */
+.great-again .commit-author-section {
+    color: #333;
+}
+.great-again .commits-list-item .commit-meta {
+    color: #767676;
+}
+.great-again .commits-list-item .commit-author {
+    color: #767676;
+}
+/* The commit under the mouse */
+.great-again .commits-list-item.navigation-focus {
+    background: #f7fbfc;
+}
