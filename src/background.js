@@ -9,7 +9,7 @@ chrome.pageAction.onClicked.addListener(function (tab) {
         // and rely on Chrome's manifest permission to restrict
         chrome.tabs.query({}, function (tabs) {
             tabs.forEach(function (tab) {
-                chrome.tabs.sendMessage(tab.id, 'toggle_style', function () {});
+                chrome.tabs.sendMessage(tab.id, 'apply_style', function () {});
             });
         });
     })

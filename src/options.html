@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Make Github Great Again Options</title>
+  <style>
+    body div {
+      margin: 15px 10px;
+    }
+    .disabled {
+      opacity: 0.5;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <label>
+      <input type="checkbox" id="enabled">
+      <text>Enabled</text>
+    </label>
+  </div>
+
+  <div style="border: 1px solid #eee; border-radius: 3px">
+
+    <div>
+      <label>
+        <input type="checkbox" id="original-header">
+        <text>Original header color (gray not black)</text>
+      </label>
+    </div>
+
+    <div>
+      <label>
+        <input type="checkbox" id="short-header">
+        <text>Original header size (slightly shorter)</text>
+      </label>
+    </div>
+
+    <div>
+      <label>
+        <input type="checkbox" id="short-search-box">
+        <text>Original search box size (slightly shorter)</text>
+      </label>
+    </div>
+
+    <div>
+      <label>
+        <input type="checkbox" id="original-colors">
+        <text>Original colors (blue links, greens, purples...)</text>
+      </label>
+    </div>
+
+  </div>
+
+  <div>
+    <button id="save">Save</button>
+    &nbsp;
+    <span id="status"></span>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
