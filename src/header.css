@@ -43,11 +43,11 @@
     border-color: #c6d7ec
 }
 
-.great-header .header-nav-link {
+.great-header .header-navlink {
     color: #555
 }
-.great-header .header-nav-link:hover,
-.great-header .header-nav-link:focus {
+.great-header .header-navlink:hover,
+.great-header .header-navlink:focus {
     color: #4078c0
 }
 
@@ -59,7 +59,7 @@
     opacity: 0.8;
 }
 
-.great-header .header-nav-link:hover .dropdown-caret, .great-header .header-nav-link:focus .dropdown-caret {
+.great-header .header-navlink:hover .dropdown-caret, .great-header .header-navlink:focus .dropdown-caret {
     border-top-color: #4078c0
 }
 
@@ -120,7 +120,7 @@
 }
 
 /* The logo and text used to be darker */
-.great-header .header-nav-link,
+.great-header .header-navlink,
 .great-header .header-logo-invertocat, .great-header .header-logo-wordmark {
     color: #333;
 }
@@ -158,6 +158,6 @@
     min-height: 26px;
 }
 /* The text to the right of the search box*/
-.short-search-box .header-nav-link {
+.short-search-box .header-navlink {
     font-size: 13px;
 }
