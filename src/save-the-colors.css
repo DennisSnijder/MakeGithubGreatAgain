@@ -74,6 +74,9 @@ body.great-again {
     background-color: #c9510c;
     border-color: transparent;
 }
+/* Release labels may be just a span, or may be a span containing a link to the release notes */
+/* For example, see /atom/atom/releases */
+.great-again .release-label,
 .great-again .release-label a {
     color: #fff !important;
 }
