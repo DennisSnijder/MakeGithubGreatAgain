@@ -43,11 +43,11 @@ header.great-header .header-search-scope {
     border-color: #c6d7ec
 }
 
-.great-header .header-nav-link {
+.great-header .HeaderNavlink {
     color: #555
 }
-.great-header .header-nav-link:hover,
-.great-header .header-nav-link:focus {
+.great-header .HeaderNavlink:hover,
+.great-header .HeaderNavlink:focus {
     color: #4078c0
 }
 
@@ -59,7 +59,7 @@ header.great-header .header-search-scope {
     opacity: 0.8;
 }
 
-.great-header .header-nav-link:hover .dropdown-caret, .great-header .header-nav-link:focus .dropdown-caret {
+.great-header .HeaderNavlink:hover .dropdown-caret, .great-header .HeaderNavlink:focus .dropdown-caret {
     border-top-color: #4078c0
 }
 
@@ -120,7 +120,7 @@ header.great-header .header-search-scope {
 }
 
 /* The logo and text used to be darker */
-.great-header .header-nav-link,
+.great-header .HeaderNavlink,
 .great-header .header-logo-invertocat, .great-header .header-logo-wordmark {
     color: #333;
 }
@@ -158,6 +158,6 @@ header.short-search-box .header-search-input {
     min-height: 26px;
 }
 /* The text to the right of the search box*/
-.short-search-box .header-nav-link {
+.short-search-box .HeaderNavlink {
     font-size: 13px;
 }
