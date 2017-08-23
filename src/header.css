@@ -19,6 +19,10 @@ header.great-header {
     color: #555
 }
 
+.great-header .notification-indicator {
+    color: #4078c0;
+}
+
 .great-header .notification-indicator .mail-status {
     color: #fff;
     background-image: -webkit-linear-gradient(#7aa1d3, #4078c0);
