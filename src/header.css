@@ -19,10 +19,6 @@ header.great-header {
     color: #555
 }
 
-.great-header .notification-indicator {
-    color: #4078c0;
-}
-
 .great-header .notification-indicator .mail-status {
     color: #fff;
     background-image: -webkit-linear-gradient(#7aa1d3, #4078c0);
@@ -47,20 +43,31 @@ header.great-header .header-search-scope {
     border-color: #c6d7ec
 }
 
-.great-header .HeaderNavlink {
-    color: #555
-}
-.great-header .HeaderNavlink:hover,
-.great-header .HeaderNavlink:focus {
-    color: #4078c0
+/* The link text, notification indicator, and logo used to be darker */
+.great-header .HeaderNavlink,
+.great-header .notification-indicator,
+.great-header .header-logo-invertocat, .great-header .header-logo-wordmark {
+    color: #333;
 }
 
+/* Links are blue when hovered */
+.great-header .HeaderNavlink:hover,
+.great-header .HeaderNavlink:focus,
+.great-header .notification-indicator:hover,
+.great-header .notification-indicator:focus,
+.great-header .header-logo-invertocat:hover,
+.great-header .header-logo-wordmark:hover {
+    color: #4078c0;
+}
+
+
 /* The original Github CSS made the logo blue on hover.  The new Github CSS leaves the logo unchanged on hover. */
-/* We will soften the dark grey logo on hover.  This appears more consistent with the light grey logo in the footer. */
+/* We will do our own thing, and soften the dark grey logo on hover. */
+/* This is more consistent with the light grey logo in the footer (which darkens on hover). */
 .great-header .header-logo-invertocat:hover,
 .great-header .header-logo-wordmark:hover {
     color: #333;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .great-header .HeaderNavlink:hover .dropdown-caret, .great-header .HeaderNavlink:focus .dropdown-caret {
@@ -123,11 +130,6 @@ header.great-header .header-search-scope {
     color: #767676 !important;
 }
 
-/* The logo and text used to be darker */
-.great-header .HeaderNavlink,
-.great-header .header-logo-invertocat, .great-header .header-logo-wordmark {
-    color: #333;
-}
 /* The search box had a gentle border */
 header.great-header .header-search-wrapper {
     border: 1px solid #ddd;
