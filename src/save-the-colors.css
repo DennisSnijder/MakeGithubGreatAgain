@@ -127,7 +127,8 @@ a {
 .great-again .diff-expander:hover,
 .great-again .btn-outline:hover,
 .great-again .timeline-commits .ellipsis-expander:hover,
-.great-again .discussion-item-changes-marker.is-unread .discussion-item-icon,
+/* The blue (+) icon that appears when someone pushes new commits onto a PR while you are viewing it */
+.great-again .discussion-item-changes-marker .discussion-item-icon,
 .great-again .reaction-sort-item:hover {
     background-color: #4078c0 !important;
 }
@@ -224,10 +225,6 @@ a {
 /* and the upload message below it */
 .great-again .drag-and-drop {
     background: #fafafa;
-}
-/* The blue (+) icon that appears on a PR when someone pushes new commits onto it (only after a review?) */
-.great-again .discussion-item-changes-marker .discussion-item-icon {
-    background-color: #0366d6 !important;
 }
 
 /* purple */
