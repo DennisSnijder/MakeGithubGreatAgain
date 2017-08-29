@@ -1,4 +1,4 @@
-.header.great-header {
+header.great-header {
     color: #333;
     background-color: #f5f5f5;
     border-bottom: 1px solid #e5e5e5
@@ -31,7 +31,7 @@
     /* background-image: linear-gradient(#4078c0, #4078c0); */
 }
 
-.great-header.header .header-search-scope {
+header.great-header .header-search-scope {
     font-size: inherit;
     color: #767676;
     border-right: 1px solid #eee;
@@ -43,23 +43,34 @@
     border-color: #c6d7ec
 }
 
-.great-header .header-nav-link {
-    color: #555
-}
-.great-header .header-nav-link:hover,
-.great-header .header-nav-link:focus {
-    color: #4078c0
+/* The link text, notification indicator, and logo used to be darker */
+.great-header .HeaderNavlink,
+.great-header .notification-indicator,
+.great-header .header-logo-invertocat, .great-header .header-logo-wordmark {
+    color: #333;
 }
 
+/* Links are blue when hovered */
+.great-header .HeaderNavlink:hover,
+.great-header .HeaderNavlink:focus,
+.great-header .notification-indicator:hover,
+.great-header .notification-indicator:focus,
+.great-header .header-logo-invertocat:hover,
+.great-header .header-logo-wordmark:hover {
+    color: #4078c0;
+}
+
+
 /* The original Github CSS made the logo blue on hover.  The new Github CSS leaves the logo unchanged on hover. */
-/* We will soften the dark grey logo on hover.  This appears more consistent with the light grey logo in the footer. */
+/* We will do our own thing, and soften the dark grey logo on hover. */
+/* This is more consistent with the light grey logo in the footer (which darkens on hover). */
 .great-header .header-logo-invertocat:hover,
 .great-header .header-logo-wordmark:hover {
     color: #333;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
-.great-header .header-nav-link:hover .dropdown-caret, .great-header .header-nav-link:focus .dropdown-caret {
+.great-header .HeaderNavlink:hover .dropdown-caret, .great-header .HeaderNavlink:focus .dropdown-caret {
     border-top-color: #4078c0
 }
 
@@ -119,13 +130,8 @@
     color: #767676 !important;
 }
 
-/* The logo and text used to be darker */
-.great-header .header-nav-link,
-.great-header .header-logo-invertocat, .great-header .header-logo-wordmark {
-    color: #333;
-}
 /* The search box had a gentle border */
-.great-header.header .header-search-wrapper {
+header.great-header .header-search-wrapper {
     border: 1px solid #ddd;
 }
 /* The selector next to the search box was just plain white (now fixed above) */
@@ -137,7 +143,7 @@
 
 /* According to my Firefox, the header did not used to be so tall */
 /* Some people might not want to go back to a short header, so I have made this a separate class.  Add it for a more faithful classic look. */
-.short-header.header {
+header.short-header {
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -147,17 +153,17 @@
 }
 
 /* The search box was also less tall */
-.short-search-box.header .header-search {
+header.short-search-box .header-search {
     margin-top: 1px;
 }
-.short-search-box.header .header-search-scope {
+header.short-search-box .header-search-scope {
     line-height: 26px;
 }
-.short-search-box.header .header-search-wrapper,
-.short-search-box.header .header-search-input {
+header.short-search-box .header-search-wrapper,
+header.short-search-box .header-search-input {
     min-height: 26px;
 }
 /* The text to the right of the search box*/
-.short-search-box .header-nav-link {
+.short-search-box .HeaderNavlink {
     font-size: 13px;
 }
