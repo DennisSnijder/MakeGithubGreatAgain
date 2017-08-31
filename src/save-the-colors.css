@@ -348,6 +348,21 @@ a {
 .great-again .flash {
     background-color: #f2f9fc;
 }
+/* The rule above overrides these rules below, so we must restore them */
+/* But anyway the colors changed, so here are the good old ones */
+.great-again .flash-warn {
+    color: #4c4a42;
+    background-color: #fff9ea;
+    border-color: #dfd8c2
+}
+.great-again .flash-error {
+    color: #911;
+    background-color: #fcdede;
+    border-color: #d2b2b2
+}
+.great-again .warning {
+    background-color: #fffccc
+}
 
 /* The area below the header is slightly blue in the redesign.  This turns it back to grey. */
 .great-again .repohead.experiment-repo-nav {
