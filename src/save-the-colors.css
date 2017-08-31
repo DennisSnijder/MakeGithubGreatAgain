@@ -9,7 +9,8 @@ body.great-again {
 /* red */
 .great-again .state-closed,
 .great-again .block-diff-deleted,
-.great-again .discussion-item-closed .discussion-item-icon {
+.great-again .discussion-item-closed .discussion-item-icon,
+.great-again .discussion-item-review.is-rejected.is-writer .discussion-item-icon {
     background-color: #bd2c00 !important;
 }
 .great-again .btn-danger:hover {
