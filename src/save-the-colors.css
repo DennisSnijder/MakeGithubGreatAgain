@@ -9,7 +9,8 @@ body.great-again {
 /* red */
 .great-again .state-closed,
 .great-again .block-diff-deleted,
-.great-again .discussion-item-closed .discussion-item-icon {
+.great-again .discussion-item-closed .discussion-item-icon,
+.great-again .discussion-item-review.is-rejected.is-writer .discussion-item-icon {
     background-color: #bd2c00 !important;
 }
 .great-again .btn-danger:hover {
@@ -74,6 +75,9 @@ body.great-again {
     background-color: #c9510c;
     border-color: transparent;
 }
+/* Release labels may be just a span, or may be a span containing a link to the release notes */
+/* For example, see /atom/atom/releases */
+.great-again .release-label,
 .great-again .release-label a {
     color: #fff !important;
 }
@@ -124,7 +128,8 @@ a {
 .great-again .diff-expander:hover,
 .great-again .btn-outline:hover,
 .great-again .timeline-commits .ellipsis-expander:hover,
-.great-again .discussion-item-changes-marker.is-unread .discussion-item-icon,
+/* The blue (+) icon that appears when someone pushes new commits onto a PR while you are viewing it */
+.great-again .discussion-item-changes-marker .discussion-item-icon,
 .great-again .reaction-sort-item:hover {
     background-color: #4078c0 !important;
 }
@@ -342,6 +347,21 @@ a {
 /* Messages which pop up when an errors occurs */
 .great-again .flash {
     background-color: #f2f9fc;
+}
+/* The rule above overrides these rules below, so we must restore them */
+/* But anyway the colors changed, so here are the good old ones */
+.great-again .flash-warn {
+    color: #4c4a42;
+    background-color: #fff9ea;
+    border-color: #dfd8c2
+}
+.great-again .flash-error {
+    color: #911;
+    background-color: #fcdede;
+    border-color: #d2b2b2
+}
+.great-again .warning {
+    background-color: #fffccc
 }
 
 /* The area below the header is slightly blue in the redesign.  This turns it back to grey. */
