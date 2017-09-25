@@ -73,7 +73,10 @@
 .great-again .tos-info a,
 .great-again .vcard-details a,
 .great-again a.aname,
+/* Hovering a person's name on the "Followers/Following" tabs */
 .great-again a.link-gray-dark:hover,
+/* Hovering a person's username on the "Followers/Following" tabs */
+.great-again a.link-gray:hover,
 .great-again a.muted-link:hover,
 .great-again table.files td.message a:hover,
 .great-again td.content a,
