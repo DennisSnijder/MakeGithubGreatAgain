@@ -102,6 +102,8 @@
 .great-again .contributing a,
 /* The "Add a bio" link on your profile page /[username] */
 .great-again .vcard-names-container + .mb-3 a,
+/* List of repos in /settings/repositories */
+.great-again .js-collab-repo a,
 /* Links to Wiki pages */
 .great-again a.wiki-page-link {
     color: #4078c0;
