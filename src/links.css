@@ -67,6 +67,8 @@
 .great-again .repo-list a,
 .great-again .repohead-details-container>h1 a,
 .great-again .repository-meta-content a,
+/* Links to repositories on the "Stars" tab */
+.great-again .d-inline-block h3 > a,
 .great-again .footer a:not(.footer-octicon),
 .great-again .tos-info a,
 .great-again .vcard-details a,
