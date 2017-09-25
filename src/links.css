@@ -67,7 +67,7 @@
 .great-again .repo-list a,
 .great-again .repohead-details-container>h1 a,
 .great-again .repository-meta-content a,
-.great-again .site-footer a,
+.great-again .footer a:not(.footer-octicon),
 .great-again .tos-info a,
 .great-again .vcard-details a,
 .great-again a.aname,
