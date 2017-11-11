@@ -104,6 +104,8 @@
 .great-again .vcard-names-container + .mb-3 a,
 /* List of repos in /settings/repositories */
 .great-again .js-collab-repo a,
+/* List in cards on the /projects/1 page */
+.great-again .issue-card a,
 /* Links to Wiki pages */
 .great-again a.wiki-page-link {
     color: #4078c0;
