@@ -59,17 +59,24 @@
 .great-again .numbers-summary a:hover,
 .great-again .pagination a,
 .great-again .pinned-repo-item-content .d-block a,
+.great-again .pinned-repo-item-content a,
+.great-again #user-repositories-list a,
 .great-again .profile-rollup-content>li>div>a:first-child,
 .great-again .profile-rollup-content>li>span>a,
 .great-again .protip a,
 .great-again .repo-list a,
 .great-again .repohead-details-container>h1 a,
 .great-again .repository-meta-content a,
-.great-again .site-footer a,
+/* Links to repositories on the "Stars" tab */
+.great-again .d-inline-block h3 > a,
+.great-again .footer a:not(.footer-octicon),
 .great-again .tos-info a,
 .great-again .vcard-details a,
 .great-again a.aname,
+/* Hovering a person's name on the "Followers/Following" tabs */
 .great-again a.link-gray-dark:hover,
+/* Hovering a person's username on the "Followers/Following" tabs */
+.great-again a.link-gray:hover,
 .great-again a.muted-link:hover,
 .great-again table.files td.message a:hover,
 .great-again td.content a,
@@ -95,6 +102,10 @@
 .great-again .contributing a,
 /* The "Add a bio" link on your profile page /[username] */
 .great-again .vcard-names-container + .mb-3 a,
+/* List of repos in /settings/repositories */
+.great-again .js-collab-repo a,
+/* List in cards on the /projects/1 page */
+.great-again .issue-card a,
 /* Links to Wiki pages */
 .great-again a.wiki-page-link {
     color: #4078c0;

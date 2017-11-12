@@ -2,7 +2,7 @@ var headerBar;
 
 function initOnce () {
     // check if element exists yet
-    headerBar = document.querySelector('body > div > header');
+    headerBar = document.querySelector('body > div > .Header');
     if (headerBar) {
         // element exists, remove the event listeners so we don't run this twice
         document.removeEventListener('DOMNodeInserted', initOnce);
