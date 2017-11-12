@@ -1,4 +1,4 @@
-header.great-header {
+.Header.great-header {
     color: #333;
     background-color: #f5f5f5;
     border-bottom: 1px solid #e5e5e5
@@ -31,7 +31,7 @@ header.great-header {
     /* background-image: linear-gradient(#4078c0, #4078c0); */
 }
 
-header.great-header .header-search-scope {
+.Header.great-header .header-search-scope {
     font-size: inherit;
     color: #767676;
     border-right: 1px solid #eee;
@@ -131,7 +131,7 @@ header.great-header .header-search-scope {
 }
 
 /* The search box had a gentle border */
-header.great-header .header-search-wrapper {
+.Header.great-header .header-search-wrapper {
     border: 1px solid #ddd;
 }
 /* The selector next to the search box was just plain white (now fixed above) */
@@ -143,7 +143,7 @@ header.great-header .header-search-wrapper {
 
 /* According to my Firefox, the header did not used to be so tall */
 /* Some people might not want to go back to a short header, so I have made this a separate class.  Add it for a more faithful classic look. */
-header.short-header {
+.Header.short-header {
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -153,14 +153,14 @@ header.short-header {
 }
 
 /* The search box was also less tall */
-header.short-search-box .header-search {
+.Header.short-search-box .header-search {
     margin-top: 1px;
 }
-header.short-search-box .header-search-scope {
+.Header.short-search-box .header-search-scope {
     line-height: 26px;
 }
-header.short-search-box .header-search-wrapper,
-header.short-search-box .header-search-input {
+.Header.short-search-box .header-search-wrapper,
+.Header.short-search-box .header-search-input {
     min-height: 26px;
 }
 /* The text to the right of the search box*/
