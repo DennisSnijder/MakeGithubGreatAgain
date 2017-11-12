@@ -74,16 +74,23 @@
     border-top-color: #4078c0
 }
 
+/*
 .great-header .header-search {
     font-size: 14px
 }
+*/
 
 .great-header .header-search-wrapper {
     background: #fff;
+    /*
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+    */
+    /* The search box had a gentle border */
     border: 1px solid #ddd;
+    /*
     font-size: 14px;
     min-height: 0;
+    */
 }
 
 .great-header .header-search-wrapper.focus {
@@ -94,15 +101,17 @@
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, .075), 0 0 5px rgba(81, 167, 232, .5);
 }
 
+/*
 .great-header .header-search-scope {
     font-size: 12px;
     line-height: inherit;
     min-height: 0;
 }
 
-.great-header .header-search-input {
+.Header.great-header .header-search-input {
     min-height: 26px;
 }
+*/
 
 .great-header .header-search-input::-webkit-input-placeholder,
 .great-header .header-search-input::placeholder {
@@ -130,10 +139,6 @@
     color: #767676 !important;
 }
 
-/* The search box had a gentle border */
-.Header.great-header .header-search-wrapper {
-    border: 1px solid #ddd;
-}
 /* The selector next to the search box was just plain white (now fixed above) */
 /*
 .great-header .header-search-scope {
