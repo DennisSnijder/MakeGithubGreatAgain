@@ -70,6 +70,9 @@
 /* Links to repositories on the "Stars" tab */
 .great-again .d-inline-block h3 > a,
 .great-again .footer a:not(.footer-octicon),
+/* Links to files on the /find page (accessed by T button) */
+.great-again .tree-browser-result a.js-tree-finder-path,
+.great-again .tree-browser-result mark,
 .great-again .tos-info a,
 .great-again .vcard-details a,
 .great-again a.aname,
