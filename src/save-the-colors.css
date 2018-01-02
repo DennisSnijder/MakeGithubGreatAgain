@@ -196,6 +196,12 @@ a {
 .great-again .commit-ref .user {
     color: #598a9f;
 }
+/* Links to branches on the front page feed */
+.great-again .news .push a.branch-name {
+    /* color: #4078c0; */
+    color: #336479;
+    background-color: #e8f0f8;
+}
 /* When viewing a commit, this is the title box (more turquoise, less blue) */
 .great-again .full-commit {
     background: #e6f1f6;
