@@ -1,5 +1,7 @@
 /* Links */
 
+/* Link from the sign-in page to the sign-up page */
+.great-again .create-account-callout a,
 .great-again #issues a,
 .great-again #pull-requests a,
 .great-again .ajax-pagination-form a,
