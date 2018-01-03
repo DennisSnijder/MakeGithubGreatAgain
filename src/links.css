@@ -1,5 +1,7 @@
 /* Links */
 
+/* Link from the sign-in page to the sign-up page */
+.great-again .create-account-callout a,
 .great-again #issues a,
 .great-again #pull-requests a,
 .great-again .ajax-pagination-form a,
@@ -70,6 +72,9 @@
 /* Links to repositories on the "Stars" tab */
 .great-again .d-inline-block h3 > a,
 .great-again .footer a:not(.footer-octicon),
+/* Links to files on the /find page (accessed by T button) */
+.great-again .tree-browser-result a.js-tree-finder-path,
+.great-again .tree-browser-result mark,
 .great-again .tos-info a,
 .great-again .vcard-details a,
 .great-again a.aname,
@@ -85,8 +90,18 @@
 .great-again .notifications .notifications-more > a,
 /* Link to issue or PR from a commit or merge message on the /commits page*/
 .great-again .commit .commit-title .issue-link,
+/* Link to branch from the front-page feed (now assigned in save-the-colors.css) */
+/*.great-again .news .push a.branch-name,*/
+/* Link to commit from the front-page feed */
+.great-again .news .push .commits a,
+/* Links in the ProTip that appears below the front-page feed */
+.great-again .news .text-gray a,
 /* Link to issue from commit-tease on front-page */
 .great-again .commit-tease a.issue-link,
+/* "Load more..." under the repos table on the front page */
+.great-again button.more-repos-link,
+/* Notifications in the top-right of the front page */
+.great-again .octofication-more a,
 /* PR id in PR page */
 .great-again .gh-header-title .js-issue-title a,
 /* Titles and download links on the /releases page */
