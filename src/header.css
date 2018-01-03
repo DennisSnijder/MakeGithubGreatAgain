@@ -45,9 +45,20 @@
 
 /* The link text, notification indicator, and logo used to be darker */
 .great-header .HeaderNavlink,
+/* The .HeaderMenu--bright class is set on the header when you are not logged in */
+/* This handles the main header links */
+.great-header .HeaderMenu--bright .HeaderNavlink,
 .great-header .notification-indicator,
 .great-header .header-logo-invertocat, .great-header .header-logo-wordmark {
     color: #333;
+}
+
+/* This handles the "Sign in" or "Sign up" links + text */
+.great-header .HeaderMenu--bright .HeaderNavlink .text-white {
+    color: #333 !important;
+}
+.great-header .HeaderMenu--bright .HeaderNavlink .text-gray {
+    color: #bbb !important;
 }
 
 /* Links are blue when hovered */
