@@ -121,6 +121,8 @@
 .great-again .js-collab-repo a,
 /* List in cards on the /projects/1 page */
 .great-again .issue-card a,
+/* Name of the repo above search results */
+.great-again h3 a,
 /* Links to Wiki pages */
 .great-again a.wiki-page-link {
     color: #4078c0;
