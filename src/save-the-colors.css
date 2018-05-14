@@ -291,6 +291,10 @@ a {
 .great-again .muted-link {
     color: #767676 !important;
 }
+/* But this overrides the hover style on the Edit/Hide/Delete dropdown menus of review comments, so we need to restore that */
+.great-again .dropdown-item:hover, .great-again .dropdown-item.zeroclipboard-is-hover {
+    color: #fff !important;
+}
 .great-again .tabnav-tab {
     color: #666;
 }
