@@ -29,7 +29,8 @@ body.great-again {
 .great-again .state-open,
 .great-again .completeness-indicator-success,
 .great-again .branch-action-state-clean .branch-action-icon,
-.great-again .discussion-item-reopened .discussion-item-icon {
+.great-again .discussion-item-reopened .discussion-item-icon,
+.great-again .discussion-item-review.is-approved.is-writer .discussion-item-icon {
     background-color: #6cc644 !important;
 }
 .great-again .block-diff-added {
@@ -215,6 +216,12 @@ a {
     background-color: #f2f8fa;
     border-bottom-color: #bfccd1;
 }
+.great-again .timeline-comment.current-user {
+    border-color: #bfccd1;
+}
+.great-again .timeline-comment-wrapper .timeline-comment.current-user::before {
+    border-right-color: #bfccd1;
+}
 /* The box that contains the big green "Merge pull request" button */
 .great-again .branch-action-body .merge-message,
 .great-again .branch-action-body .merge-branch-form {
@@ -290,6 +297,10 @@ a {
 .great-again .toolbar-item .menu-target,
 .great-again .muted-link {
     color: #767676 !important;
+}
+/* But this overrides the hover style on the Edit/Hide/Delete dropdown menus of review comments, so we need to restore that */
+.great-again .dropdown-item:hover, .great-again .dropdown-item.zeroclipboard-is-hover {
+    color: #fff !important;
 }
 .great-again .tabnav-tab {
     color: #666;
