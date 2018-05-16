@@ -29,7 +29,8 @@ body.great-again {
 .great-again .state-open,
 .great-again .completeness-indicator-success,
 .great-again .branch-action-state-clean .branch-action-icon,
-.great-again .discussion-item-reopened .discussion-item-icon {
+.great-again .discussion-item-reopened .discussion-item-icon,
+.great-again .discussion-item-review.is-approved.is-writer .discussion-item-icon {
     background-color: #6cc644 !important;
 }
 .great-again .block-diff-added {
