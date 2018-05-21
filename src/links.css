@@ -2,6 +2,8 @@
 
 /* Link from the sign-in page to the sign-up page */
 .great-again .create-account-callout a,
+/* List of repos on the front-page */
+.great-again .js-repos-container li.source a,
 .great-again #issues a,
 .great-again #pull-requests a,
 .great-again .ajax-pagination-form a,
@@ -100,7 +102,7 @@
 .great-again .commit-tease a.issue-link,
 /* "Load more..." under the repos table on the front page */
 .great-again button.more-repos-link,
-/* Notifications in the top-right of the front page */
+/* Global notifications above the repos list on the front page / dashboard */
 .great-again .octofication-more a,
 /* PR id in PR page */
 .great-again .gh-header-title .js-issue-title a,

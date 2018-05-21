@@ -175,6 +175,10 @@ a {
     /* This makes the hovered links darker, consistent with the nav links. */
     color: #333;
 }
+/* Box around the global notifications above the repos list on the front page / dashboard */
+.great-again .octofication .message {
+    border-color: #4078c0;
+}
 /* Currently selected tab on /releases page: "Releases | Tags", or on /network page: "Contributors | Commits | Code frequency | ..." */
 .great-again .subnav-item.selected,
 .great-again .subnav-item.selected:hover,
@@ -285,6 +289,14 @@ a {
 }
 
 /* grey */
+/* Grey border and header on general boxes */
+.great-again .Box {
+    border-color: #ddd;
+}
+.great-again .Box-header {
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
 /* The "5 Open 12 Closed" at the top of the Issues page */
 .great-again .table-list-header-toggle .btn-link,
 .great-again .notification-actions .btn-link,
