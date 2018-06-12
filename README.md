@@ -1,12 +1,17 @@
-# Bring back GitHub's old UI
-Get your old GitHub back. Remove the new dark topbar, fix layout of home page, hide those garish blue links and restore all the original colors!
+# GitHub OldSchool
+
+### Reclaim the GitHub UI you loved
+
+ - Grey navbar instead of black one.
+ - News feed on left hand side of homepage like it used to be.
+ - Hide those garish blue links.
+ - Restore all the original colors!
 
 ![alt screenshot](assets/example.gif)
 
-![alt layout screenshot](assets/layout-example.gif)
+## [Install from Chrome Web Store](https://chrome.google.com/webstore/detail/github-old-ui/kcdoaickipmjphocpefhabjknlnnkghg?hl=en&gl=IN)
 
-
-# How to manually install
+## How to install from this repo
 
 ## In Chrome
 1. Download this repository.
