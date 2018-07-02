@@ -63,3 +63,9 @@ function setClasses (options) {
         document.querySelector('body').classList.add('great-again');
     }
 }
+
+function setBkGroundImg(){
+    var imgURL = chrome.extension.getURL("assets/black_search_icon.svg");
+    document.getElementsByClassName("header-search-key-slash")[0].style.src = imgURL;
+}
+setBkGroundImg()
