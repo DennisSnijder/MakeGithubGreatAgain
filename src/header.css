@@ -183,3 +183,8 @@
 .short-search-box .HeaderNavlink {
     font-size: 13px;
 }
+
+.header-search-key-slash{
+    opacity: 0.001;
+}
+
