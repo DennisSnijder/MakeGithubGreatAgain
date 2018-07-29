@@ -102,6 +102,9 @@
     font-size: 14px;
     min-height: 0;
     */
+    background: url(chrome-extension://__MSG_@@extension_id__/assets/black_search_icon.svg);
+    background-repeat: no-repeat;
+    background-position: right 4px bottom 3px;
 }
 
 .great-header .header-search-wrapper.focus {
