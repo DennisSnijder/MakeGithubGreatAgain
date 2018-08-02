@@ -1,20 +1,20 @@
-# Make GitHub Great Again!
-Get your old GitHub back. Remove the new dark topbar, hide those garish blue links and restore all the original colors!
+# GitHub OldSchool
+
+### Reclaim the GitHub UI you loved
+
+ - Grey navbar instead of black one.
+ - News feed on left hand side of homepage like it used to be.
+ - Hide those garish blue links.
+ - Restore all the original colors!
 
 ![alt screenshot](assets/example.gif)
 
-# How to install
-Click on the following link and install the extension.
+## [Install from Chrome Web Store](https://chrome.google.com/webstore/detail/github-old-ui/kcdoaickipmjphocpefhabjknlnnkghg?hl=en&gl=IN)
 
-### Google Chrome
-https://chrome.google.com/webstore/detail/makegithubgreatagain/gpejlkhibgecggplgogpbgbdpnhogmhk
+## How to install from this repo
 
-### Firefox
-https://addons.mozilla.org/firefox/addon/githubgreatagain/
-
-# How to manually install
+## In Chrome
 1. Download this repository.
 2. Open up chrome://extensions/ in your browser and click “Developer mode” in the top right.
 3. Click on the new button __Load unpacked extension...__ and select the downloaded folder.
 
-Congratulations! You just made GitHub Great again!
