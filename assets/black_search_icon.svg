@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="19" height="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="a" width="19" height="20" rx="3" />
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#ecf0f1" xlink:href="#a" /><!--This colors the entire thing-->
+        <rect stroke="#2c3e50" x=".5" y=".5" width="18" height="19" rx="3" /><!--This color the edges-->
+        <path fill="#2c3e50" d="M11.76 5.979l-3.8 9.079h-.91l3.78-9.08z" /> <!--this color the "/"-->
+    </g>
+</svg>

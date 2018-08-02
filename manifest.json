@@ -43,5 +43,7 @@
   "options_ui": {
     "page": "src/options.html",
     "chrome_style": true
-  }
+  },
+  "web_accessible_resources": 
+  ["assets/*.svg"]
 }
