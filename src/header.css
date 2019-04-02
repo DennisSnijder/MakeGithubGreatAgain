@@ -53,6 +53,7 @@ header.great-header .header-search-scope,
 /* This handles the main header links */
 .great-header .HeaderMenu--bright .HeaderNavlink,
 .great-header .notification-indicator,
+.great-header .Header-link,
 .great-header .header-logo-invertocat, .great-header .header-logo-wordmark {
     color: #333;
 }
@@ -69,6 +70,9 @@ header.great-header .header-search-scope,
 .great-header .HeaderNavlink:hover,
 .great-header .HeaderNavlink:focus,
 .great-header .notification-indicator:hover,
+.great-header .notification-indicator:focus,
+.great-header .Header-link:focus,
+.great-header .Header-link:hover,
 .great-header .notification-indicator:focus,
 .great-header .header-logo-invertocat:hover,
 .great-header .header-logo-wordmark:hover {
