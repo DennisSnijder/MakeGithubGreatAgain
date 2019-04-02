@@ -169,7 +169,10 @@
 /* For gist.github.com */
 .great-again .byline .creator a,
 .great-again .byline .description a,
-.great-again .file-header .file-info a {
+.great-again .file-header .file-info a,
+.great-again .gisthead a,
+.great-again span.author > a,
+.great-again strong[itemprop=name] > a {
     color: #4078c0;
 }
 .great-again .gist-snippet .link-overlay .link {
