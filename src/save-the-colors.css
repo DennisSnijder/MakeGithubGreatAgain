@@ -202,7 +202,9 @@ a {
     color: #598a9f;
 }
 /* Links to branches on the front page feed */
-.great-again .news .push a.branch-name {
+.great-again .news .push a.branch-name,
+.great-again .branch-name,
+.great-again .commits .mr-1 {
     /* color: #4078c0; */
     color: #336479;
     background-color: #e8f0f8;

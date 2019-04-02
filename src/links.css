@@ -4,6 +4,7 @@
 .great-again .create-account-callout a,
 /* List of repos on the front-page */
 .great-again .js-repos-container li.source a,
+.great-again .dashboard-underlined-link,
 .great-again #issues a,
 .great-again #pull-requests a,
 .great-again .ajax-pagination-form a,
