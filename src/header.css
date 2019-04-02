@@ -110,7 +110,11 @@ header.great-header .header-search-scope,
     font-size: 14px;
     min-height: 0;
     */
+    /* Custom improvement: Make the search box appear good at all scales */
+    border: none;
+    box-shadow: 0 0 0px 1px #ddd;
 }
+
 
 .great-header .header-search-wrapper.focus {
     background: #fff;
