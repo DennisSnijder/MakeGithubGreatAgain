@@ -193,12 +193,13 @@ a {
     border-color: #4078c0;
 }
 /* Commit refs (e.g. "into _ from _" at the top of a PR) used to be darker */
-.great-again .commit-ref {
+.great-again .commit-ref a {
     color: #336479;
     background-color: #e8f0f8;
 }
 /* with the user/organisation name de-emphasised */
-.great-again .commit-ref .user {
+.great-again .commit-ref .user,
+.great-again .commit-ref a > span:first-child {
     color: #598a9f;
 }
 /* Links to branches on the front page feed */
