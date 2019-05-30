@@ -29,9 +29,9 @@
 /* Any link which appears in the repo description */
 .great-again .repository-content .f4 a,
 /* The "Cancel" link when editing own repo description */
-.great-again .btn-link.js-edit-repo-meta-toggle,
+.great-again .js-edit-repository-meta .btn-link,
 /* "Add topics" and "Manage topics" links on own repo */
-.great-again .btn-link.js-repo-topics-form-toggle,
+.great-again .repository-topics-container .btn-link,
 /* The link that offers to attach files by "selecting them" below the comment box */
 .great-again .btn-link.manual-file-chooser-text,
 /* The "open this in GitHub Desktop" link next to the "Merge pull request" button */
