@@ -175,6 +175,10 @@ a {
     /* This makes the hovered links darker, consistent with the nav links. */
     color: #333;
 }
+/* Box around the global notifications above the repos list on the front page / dashboard */
+.great-again .octofication .message {
+    border-color: #4078c0;
+}
 /* Currently selected tab on /releases page: "Releases | Tags", or on /network page: "Contributors | Commits | Code frequency | ..." */
 .great-again .subnav-item.selected,
 .great-again .subnav-item.selected:hover,
@@ -189,16 +193,19 @@ a {
     border-color: #4078c0;
 }
 /* Commit refs (e.g. "into _ from _" at the top of a PR) used to be darker */
-.great-again .commit-ref {
+.great-again .commit-ref a {
     color: #336479;
     background-color: #e8f0f8;
 }
 /* with the user/organisation name de-emphasised */
-.great-again .commit-ref .user {
+.great-again .commit-ref .user,
+.great-again .commit-ref a > span:first-child {
     color: #598a9f;
 }
 /* Links to branches on the front page feed */
-.great-again .news .push a.branch-name {
+.great-again .news .push a.branch-name,
+.great-again .branch-name,
+.great-again .commits .mr-1 {
     /* color: #4078c0; */
     color: #336479;
     background-color: #e8f0f8;
@@ -285,6 +292,14 @@ a {
 }
 
 /* grey */
+/* Grey border and header on general boxes */
+.great-again .Box {
+    border-color: #ddd;
+}
+.great-again .Box-header {
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
 /* The "5 Open 12 Closed" at the top of the Issues page */
 .great-again .table-list-header-toggle .btn-link,
 .great-again .notification-actions .btn-link,

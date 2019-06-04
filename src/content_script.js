@@ -2,7 +2,10 @@ var headerBar;
 
 function initOnce () {
     // check if element exists yet
-    headerBar = document.querySelector('body > div > .Header');
+    // GitHub history: header, then header.Header, now header.Header-old
+    // Gist history: header, then .Header, now .Header-old
+    //headerBar = document.querySelector('body > div > header, body > div > .Header, body > div > .Header-old');
+    headerBar = document.querySelector('header, .Header, .Header-old');
     if (headerBar) {
         // element exists, remove the event listeners so we don't run this twice
         document.removeEventListener('DOMNodeInserted', initOnce);
