@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Make GitHub Great Again",
-  "version": "1.5.1",
+  "version": "2.0.1",
   "description": "Extension to make GitHub great again!",
   "minimum_chrome_version": "26",
   "icons": {
