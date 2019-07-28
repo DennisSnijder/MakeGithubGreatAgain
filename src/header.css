@@ -1,3 +1,13 @@
+/* If you ever get too fed up maintaining this file, then here is a simpler approach: */
+/*
+header.great-header {
+    filter: invert(100%) grayscale(100%) brightness(115%);
+}
+header.great-header {
+    border-bottom: 1px solid #333;
+}
+*/
+
 header.great-header,
 .Header.great-header,
 .Header-old.great-header {
@@ -54,43 +64,78 @@ header.great-header .header-search-scope,
 .great-header .HeaderMenu--bright .HeaderNavlink,
 .great-header .notification-indicator,
 .great-header .Header-link,
+.great-header .HeaderMenu-link,
+.page-responsive .great-header .HeaderMenu-link,
 .great-header .header-logo-invertocat, .great-header .header-logo-wordmark {
     color: #333;
 }
 
 /* This handles the "Sign in" or "Sign up" links + text */
-.great-header .HeaderMenu--bright .HeaderNavlink .text-white {
+.great-header .HeaderMenu--bright .HeaderNavlink .text-white,
+.great-header .text-white {
     color: #333 !important;
 }
 .great-header .HeaderMenu--bright .HeaderNavlink .text-gray {
     color: #bbb !important;
 }
+.great-header .border-gray-dark {
+    border-color: #333 !important;
+}
 
 /* Links are blue when hovered */
 .great-header .HeaderNavlink:hover,
 .great-header .HeaderNavlink:focus,
-.great-header .notification-indicator:hover,
-.great-header .notification-indicator:focus,
 .great-header .Header-link:focus,
 .great-header .Header-link:hover,
+.great-header .notification-indicator:hover,
 .great-header .notification-indicator:focus,
 .great-header .header-logo-invertocat:hover,
 .great-header .header-logo-wordmark:hover {
     color: #4078c0;
 }
 
+/* The new white-on-black header links fade a little bit when hovered */
+/* So we could do the same for black-on-white */
+.great-header .HeaderMenu-link:hover,
+.great-header .HeaderMenu-link:focus,
+.page-responsive .great-header .HeaderMenu-link:hover,
+.page-responsive .great-header .HeaderMenu-link:focus,
+.great-header .HeaderMenu-details[open] .HeaderMenu-link:hover,
+.great-header .HeaderMenu-details[open] .HeaderMenu-link:focus,
+.page-responsive .great-header .HeaderMenu-details[open] .HeaderMenu-link:hover,
+.page-responsive .great-header .HeaderMenu-details[open] .HeaderMenu-link:focus {
+    color: #888;
+    /* Actually to be more consistent with their black-on-white UI, they should darken imperceptibly when hovered. */
+    /* But that's daft so no */
+    /*color: #24292e !important;*/
+}
+
 
 /* The original Github CSS made the logo blue on hover.  The new Github CSS leaves the logo unchanged on hover. */
 /* We will do our own thing, and soften the dark grey logo on hover. */
 /* This is more consistent with the light grey logo in the footer (which darkens on hover). */
-.great-header .header-logo-invertocat:hover,
-.great-header .header-logo-wordmark:hover {
-    color: #333;
-    opacity: 0.7;
+.great-header .octicon {
+    /* We need !important to override the new rule .text-white { color: #fff!important } */
+    color: #333 !important;
+    transition: .4s all;
+}
+.great-header .octicon:hover {
+    color: #888 !important;
+    /*color: #24292e !important;*/
 }
 
 .great-header .HeaderNavlink:hover .dropdown-caret, .great-header .HeaderNavlink:focus .dropdown-caret {
     border-top-color: #4078c0
+}
+
+/* The new dropdown arrows / carets / chevrons / chevons (sic) */
+.great-header .HeaderMenu-link .icon-chevon-down-mktg,
+.page-responsive .great-header .HeaderMenu-link .icon-chevon-down-mktg {
+    stroke: #333;
+}
+.great-header .HeaderMenu-details[open] .icon-chevon-down-mktg,
+.page-responsive .great-header .HeaderMenu-details[open] .icon-chevon-down-mktg {
+    stroke: #24292e;
 }
 
 /*
